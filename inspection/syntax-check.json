@@ -1,0 +1,39 @@
+﻿{
+    "scripts":  [
+                    {
+                        "sha256":  "175e12ee2a08d95345839a96cb2261d2864799ba57acb391173782a8ea1de925",
+                        "errors":  [
+
+                                   ],
+                        "file":  "capture_cases.ps1",
+                        "pass":  true
+                    },
+                    {
+                        "sha256":  "0ea8aed77b313d56d1b468343f10a493fcdaefe6bc247014cbeee86a0247beec",
+                        "errors":  [
+
+                                   ],
+                        "file":  "check_syntax.ps1",
+                        "pass":  true
+                    },
+                    {
+                        "sha256":  "730268d763aa97bcd58dcb257d8655d35842a31e1e8db8525e1475958172c372",
+                        "errors":  [
+
+                                   ],
+                        "file":  "ocr_captures.ps1",
+                        "pass":  true
+                    }
+                ],
+    "optional_expected_pngs":  3,
+    "optional_manual_cases":  1,
+    "default_expected_pngs":  18,
+    "powershell_version":  "5.1.19041.6093",
+    "default_cases":  9,
+    "missing_dependencies":  [
+
+                             ],
+    "all_pass":  true,
+    "checked_at":  "2026-10-28T15:04:57.3882444+08:00",
+    "scope":  "Parser and bundled-case checks only. No game process started. Parameterized delivery scripts and cleaned manual sequence were not runtime-tested again."
+}

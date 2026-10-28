@@ -1,0 +1,4 @@
+# Preserve audited resource bytes and their SHA-256 across checkouts.
+* -text
+*.pak binary
+*.png binary

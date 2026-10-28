@@ -1,0 +1,9 @@
+warte 5
+bild main
+klick 270 400
+warte 2
+bild environment
+klick 300 360
+warte 2
+bild plot_size
+ende

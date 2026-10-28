@@ -1,0 +1,3 @@
+[
+  {"name":"audio_exit_manual","args":"","rundgang":"rundgang-audio-exit-manual.txt","files":["rg_options_project.png","rg_audio.png","rg_save_exit.png"],"note":"从成功序列移除无效3D/材质点击后的精简版，仅作手动附加案例；精简版未重新运行。"}
+]

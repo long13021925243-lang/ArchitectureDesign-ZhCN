@@ -1,0 +1,44 @@
+Architecture & Design 简体中文补丁：截图巡检脚本
+
+适用：Steam Build 26257309，2026-10-28 R3 最终补丁。
+脚本通过游戏内置测试入口逐次启动游戏并截图，不会安装或修改汉化补丁。
+
+运行默认巡检
+1. 退出游戏，在本文件夹空白处打开 PowerShell。
+2. 运行：
+   powershell.exe -NoProfile -File .\capture_cases.ps1
+
+默认游戏目录：D:\Program Files (x86)\Steam\steamapps\common\ArchitectureDesign
+更换游戏目录：
+   powershell.exe -NoProfile -File .\capture_cases.ps1 -GameRoot "E:\SteamLibrary\steamapps\common\ArchitectureDesign"
+如本机执行策略阻止脚本，可仅对本次进程加 -ExecutionPolicy Bypass，不需要修改系统策略。
+
+默认执行9个成功案例，预期18张截图：家具库、材质库、8类建筑属性、放门、开洞、栏杆、地形、天气、菜单3页。
+截图和capture.json记录保存在本目录results\本次时间与编号\，同一轮汇总为runtime-captures.json。
+记录包含退出码、开始时间、文件长度和SHA-256；旧截图不会被当作本轮结果。
+运行时请让游戏独占输入，不要同时操作游戏。坐标流程对应已验证的1920×1080游戏界面；其他分辨率需自行复核坐标。
+
+独立存档
+默认在系统临时目录新建 ArchitectureDesign_ZhCN_Check\本次时间与编号，命令行始终带 -userdir。
+只复制随包提供的巡检配置，不读取或复制玩家存档。脚本不删除任何存档或输出目录。
+可通过 -ProfileRoot "D:\巡检专用存档" 指定新的空目录，或复用由本脚本创建且带有效标记的巡检目录。
+已有普通非空目录、玩家默认存档目录、游戏目录以及链接/联接路径会被拒绝。
+通过 -OutputRoot "D:\巡检结果" 指定输出父目录，每次仍会建立独立子目录。
+不要把巡检目录标记复制到玩家真实存档目录。
+
+可选OCR（只读取图片）
+建议使用Windows自带的Windows PowerShell 5.1，需要系统已安装OCR语言。
+   powershell.exe -NoProfile -File .\ocr_captures.ps1 -InputPath ".\results\某次结果目录"
+默认将识别结果写为该目录下ocr-captures.json；可用 -OutputPath 指定别处。
+latinCandidates只是含拉丁字母的候选，Sofa-05、Steam、按键名称和单位不一定是漏译；以实际截图为准。
+
+手动附加：音量与退出提示
+   powershell.exe -NoProfile -File .\capture_cases.ps1 -CasesFile .\capture-audio-exit-manual.json
+此案例创建测试场景并画一段墙，再打开项目、音量、退出保存提示，共3张图。
+它由实际成功流程精简而来，已去掉无效的3D/材质点击；精简版未重新运行，因此不属于默认9例的已验证范围。
+未包含失效的material_hover案例。
+
+验证范围
+原默认9例已在最终构建实际运行并审阅；本交付版本仅完成参数化和PowerShell语法检查，没有再次启动游戏。
+脚本语法检查结果见 syntax-check.json；可运行 powershell.exe -NoProfile -File .\check_syntax.ps1 重新检查，检查不会启动游戏。
+内置命令参考见 内置命令参考.txt。

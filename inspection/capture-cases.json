@@ -1,0 +1,11 @@
+[
+  {"name":"furniture","args":"-panelbild -katalog=Table","files":["panel.png"]},
+  {"name":"materials","args":"-panelbild -bibliothek","files":["panel.png"]},
+  {"name":"building_properties","args":"-allepanels","files":["p_wand.png","p_fenster.png","p_tuer.png","p_treppe.png","p_boden.png","p_dach.png","p_weg.png","p_gelaender.png"]},
+  {"name":"door_placement","args":"-panelbild -tab=0 -werkzeug=door","files":["panel.png"]},
+  {"name":"opening","args":"-panelbild -tab=0 -werkzeug=hole","files":["panel.png"]},
+  {"name":"railing","args":"-panelbild -tab=1 -werkzeug=rail","files":["panel.png"]},
+  {"name":"terrain","args":"-panelbild -tab=1 -werkzeug=landscape","files":["panel.png"]},
+  {"name":"weather","args":"-panelbild -sonne","files":["panel.png"]},
+  {"name":"menu","args":"","rundgang":"rundgang-menu-coverage.txt","files":["rg_main.png","rg_environment.png","rg_plot_size.png"]}
+]

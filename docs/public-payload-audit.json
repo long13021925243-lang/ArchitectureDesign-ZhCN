@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "supportedBuildId": "26257309",
+  "manifestSha256": "333f4d32ff331eeaeba8ad767f0a809d6071d681d1e12bbf0df13f641a532394",
+  "installerSha256": "72e04371623f157755c6398f3e2a800ffcf4f5dc20c2462c2bc08e49f2a41033",
+  "patchedExeSha256": "2b232cd4dbdbd9abe87495a115d8d480d16c61e6348d0aebd72702c6044fd5e3",
+  "patchCount": 2432,
+  "previousProfileCount": 3,
+  "readableUIPointerCount": 659,
+  "readableUILabelTableCount": 56,
+  "zipEntryCount": 3,
+  "zipSha256": "a7a3da19b428ec45cb34035df842b204fd9d66e5258f4daa390f228e04d04125",
+  "pakEntryCount": 2,
+  "pakSha256": "7a616093df13a2d5be31c42b1618df0d83631575746b867553fdee575ae30d45",
+  "decodedPakContentHashesMatchManifest": true,
+  "bundledFontCount": 0,
+  "fontsSourcedFromWindowsCount": 2,
+  "completeGameExecutableBundled": false,
+  "installerSourceAndManifestMatchFrozenBuild": true,
+  "sourceFiles": [
+    {
+      "file": "src/Installer.cs",
+      "bytes": 51637,
+      "sha256": "ebdac7ae8fd55431192aa6810c5d4238d4e80394ba7c17f570cc20b6225eaaba"
+    },
+    {
+      "file": "data/library-display-mapping.json",
+      "bytes": 6729,
+      "sha256": "564be76bbd1a48e324f226d310e6eae3ef594fe0001522b2ae9019d3c171233d"
+    },
+    {
+      "file": "data/localized-data/MaterialBibliothek.json",
+      "bytes": 18598,
+      "sha256": "47d413e954916e0747f243e6a73d223c4996f2af39e64da3c5bfbb327e639a63"
+    },
+    {
+      "file": "data/localized-data/PatchNotes.json",
+      "bytes": 8499,
+      "sha256": "979e6f7c68d56d1a2905bcc63f126b484307a94bd37436648836cf699ec9aead"
+    },
+    {
+      "file": "data/manifest.json",
+      "bytes": 651133,
+      "sha256": "333f4d32ff331eeaeba8ad767f0a809d6071d681d1e12bbf0df13f641a532394"
+    },
+    {
+      "file": "data/material-display-mapping.json",
+      "bytes": 33102,
+      "sha256": "e848aae5e898905dd4c63f3b6d695a2600f8f9839f94fae11707983859699520"
+    },
+    {
+      "file": "data/payload/zzz_ArchitectureDesign_ZhCN_P.pak",
+      "bytes": 10716,
+      "sha256": "7a616093df13a2d5be31c42b1618df0d83631575746b867553fdee575ae30d45"
+    },
+    {
+      "file": "data/translations.json",
+      "bytes": 283214,
+      "sha256": "fc5669de0f79ac9c9815e44262f1af7890f82a35143e94d413ad7a20c412bff6"
+    },
+    {
+      "file": "data/ui-pointers.json",
+      "bytes": 215470,
+      "sha256": "f4c32c3ad41cf8b1d07afd0f755d9f7cede984e066cc20f27cd14e5e0000aefe"
+    },
+    {
+      "file": "data/ui-tables.json",
+      "bytes": 25108,
+      "sha256": "2be1d1badfa76f3f85c4993850cd732fb2df05229d086b7cdd188e97d5fe4e19"
+    },
+    {
+      "file": "tools/build.py",
+      "bytes": 6575,
+      "sha256": "caa7869da07a30e730591f83921b1c0b46c0a7f53b41f47a475c0c417ba46451"
+    },
+    {
+      "file": "tools/verify_patch.py",
+      "bytes": 2564,
+      "sha256": "dca9b1cc5a1c42a62c29c9360d931f19d5ec784624f7f874245337321136b011"
+    }
+  ]
+}

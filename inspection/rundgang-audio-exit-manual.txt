@@ -1,0 +1,23 @@
+# Manually selected optional case. This cleaned sequence has not been rerun.
+warte 5
+klick 270 400
+warte 2
+klick 300 360
+warte 2
+klick 350 337
+warte 12
+klick 800 500
+klick 1000 500
+klick 1000 500 rechts
+taste Escape
+warte 1
+klick 1874 35
+warte 2
+bild options_project
+klick 550 493
+warte 2
+bild audio
+klick 550 824
+warte 2
+bild save_exit
+ende

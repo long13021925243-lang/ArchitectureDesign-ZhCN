@@ -1,0 +1,1338 @@
+[
+  {
+    "source": "Brick Terracotta",
+    "translation": "陶土砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Brick-01"
+    ]
+  },
+  {
+    "source": "Brick Charcoal",
+    "translation": "炭灰色砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Brick-02"
+    ]
+  },
+  {
+    "source": "Brick Red Brown",
+    "translation": "红棕色砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Brick-03"
+    ]
+  },
+  {
+    "source": "Brick Rose",
+    "translation": "玫瑰色砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Brick-04"
+    ]
+  },
+  {
+    "source": "Brick Sand",
+    "translation": "沙色砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Brick-05"
+    ]
+  },
+  {
+    "source": "Concrete Taupe",
+    "translation": "灰褐色混凝土",
+    "scope": "material display name",
+    "asset_keys": [
+      "Concrete-01"
+    ]
+  },
+  {
+    "source": "Concrete Grey",
+    "translation": "灰色混凝土",
+    "scope": "material display name",
+    "asset_keys": [
+      "Concrete-02"
+    ]
+  },
+  {
+    "source": "Concrete Light",
+    "translation": "浅色混凝土",
+    "scope": "material display name",
+    "asset_keys": [
+      "Concrete-03"
+    ]
+  },
+  {
+    "source": "Concrete White",
+    "translation": "白色混凝土",
+    "scope": "material display name",
+    "asset_keys": [
+      "Concrete-04"
+    ]
+  },
+  {
+    "source": "Concrete Smooth Dark",
+    "translation": "深色光滑混凝土",
+    "scope": "material display name",
+    "asset_keys": [
+      "Floor-Smooth-Concrete"
+    ]
+  },
+  {
+    "source": "Cotton White",
+    "translation": "白色棉布",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric_Bedsheet"
+    ]
+  },
+  {
+    "source": "Bed Linen Grey",
+    "translation": "灰色床品布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Bed"
+    ]
+  },
+  {
+    "source": "Fabric Taupe",
+    "translation": "灰褐色布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Beige-02"
+    ]
+  },
+  {
+    "source": "Fabric Warm Grey",
+    "translation": "暖灰色布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Beige-03"
+    ]
+  },
+  {
+    "source": "Fabric Navy",
+    "translation": "藏蓝色布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Blue"
+    ]
+  },
+  {
+    "source": "Fabric Dark Taupe",
+    "translation": "深灰褐色布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Brown-01"
+    ]
+  },
+  {
+    "source": "Fabric Sand",
+    "translation": "沙色布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Brown"
+    ]
+  },
+  {
+    "source": "Fabric Forest Green",
+    "translation": "森林绿布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Green"
+    ]
+  },
+  {
+    "source": "Fabric Grey",
+    "translation": "灰色布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Grey-02"
+    ]
+  },
+  {
+    "source": "Fabric Graphite",
+    "translation": "石墨灰布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Grey"
+    ]
+  },
+  {
+    "source": "Leather Black",
+    "translation": "黑色皮革",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Leather-Black"
+    ]
+  },
+  {
+    "source": "Fabric Off-White",
+    "translation": "米白色布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-OffWhite"
+    ]
+  },
+  {
+    "source": "Fabric Mustard",
+    "translation": "芥末黄布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Orange"
+    ]
+  },
+  {
+    "source": "Fabric Burgundy",
+    "translation": "酒红色布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Red"
+    ]
+  },
+  {
+    "source": "Terry Cloth White",
+    "translation": "白色毛巾布",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Towel"
+    ]
+  },
+  {
+    "source": "Velvet Brown",
+    "translation": "棕色天鹅绒",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Velvet-Brown"
+    ]
+  },
+  {
+    "source": "Fabric White Textured",
+    "translation": "白色纹理布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-White-02"
+    ]
+  },
+  {
+    "source": "Fabric Pearl Grey",
+    "translation": "珍珠灰布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-White-03"
+    ]
+  },
+  {
+    "source": "Fabric Yellow",
+    "translation": "黄色布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-Yellow"
+    ]
+  },
+  {
+    "source": "Curtain Ivory",
+    "translation": "象牙白窗帘",
+    "scope": "material display name",
+    "asset_keys": [
+      "Fabric-curtain"
+    ]
+  },
+  {
+    "source": "Leather Rust",
+    "translation": "铁锈色皮革",
+    "scope": "material display name",
+    "asset_keys": [
+      "MI_dvizAP_Leather_02"
+    ]
+  },
+  {
+    "source": "Fabric Stone Grey",
+    "translation": "石灰色布料",
+    "scope": "material display name",
+    "asset_keys": [
+      "fabric_192_00_biege_8811"
+    ]
+  },
+  {
+    "source": "Cushion Fabric Charcoal",
+    "translation": "炭灰色靠垫布",
+    "scope": "material display name",
+    "asset_keys": [
+      "fabric_pillow_01"
+    ]
+  },
+  {
+    "source": "Cushion Knit Grey",
+    "translation": "灰色针织靠垫布",
+    "scope": "material display name",
+    "asset_keys": [
+      "fabric_pillow_02_2"
+    ]
+  },
+  {
+    "source": "Fabric Linen White",
+    "translation": "白色亚麻布",
+    "scope": "material display name",
+    "asset_keys": [
+      "fabric-White-01"
+    ]
+  },
+  {
+    "source": "Paint Black",
+    "translation": "黑色涂料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Color-Black"
+    ]
+  },
+  {
+    "source": "Paint Grey",
+    "translation": "灰色涂料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Color-Grey"
+    ]
+  },
+  {
+    "source": "Paint White",
+    "translation": "白色涂料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Color-White-02"
+    ]
+  },
+  {
+    "source": "Paint Warm White",
+    "translation": "暖白色涂料",
+    "scope": "material display name",
+    "asset_keys": [
+      "Color-White"
+    ]
+  },
+  {
+    "source": "Plaster Beige",
+    "translation": "米色灰泥",
+    "scope": "material display name",
+    "asset_keys": [
+      "Wall-Plaster-Beige"
+    ]
+  },
+  {
+    "source": "Plaster Anthracite",
+    "translation": "煤灰色灰泥",
+    "scope": "material display name",
+    "asset_keys": [
+      "Wall-Plaster-Black"
+    ]
+  },
+  {
+    "source": "Plaster White",
+    "translation": "白色灰泥",
+    "scope": "material display name",
+    "asset_keys": [
+      "Wall-Plaster-White"
+    ]
+  },
+  {
+    "source": "Marble White",
+    "translation": "白色大理石",
+    "scope": "material display name",
+    "asset_keys": [
+      "Floor-Marble"
+    ]
+  },
+  {
+    "source": "Stone Slab Grey",
+    "translation": "灰色石板",
+    "scope": "material display name",
+    "asset_keys": [
+      "Floor-Paving-01"
+    ]
+  },
+  {
+    "source": "Cobblestone",
+    "translation": "鹅卵石铺面",
+    "scope": "material display name",
+    "asset_keys": [
+      "Floor-Stone-01"
+    ]
+  },
+  {
+    "source": "Marble Nero",
+    "translation": "黑色纹理大理石",
+    "scope": "material display name",
+    "asset_keys": [
+      "MI_dvizAP_Marble_01"
+    ]
+  },
+  {
+    "source": "Travertine",
+    "translation": "洞石",
+    "scope": "material display name",
+    "asset_keys": [
+      "MI_dvizAP_Marble_05"
+    ]
+  },
+  {
+    "source": "Limestone",
+    "translation": "石灰岩",
+    "scope": "material display name",
+    "asset_keys": [
+      "Stone-01"
+    ]
+  },
+  {
+    "source": "Sandstone Grey",
+    "translation": "灰色砂岩",
+    "scope": "material display name",
+    "asset_keys": [
+      "Stone-02"
+    ]
+  },
+  {
+    "source": "Stone Light Veined",
+    "translation": "浅色纹理石材",
+    "scope": "material display name",
+    "asset_keys": [
+      "Stone-Decor"
+    ]
+  },
+  {
+    "source": "Granite Speckled",
+    "translation": "斑点花岗岩",
+    "scope": "material display name",
+    "asset_keys": [
+      "Stone-Wall-01"
+    ]
+  },
+  {
+    "source": "Mosaic Teal",
+    "translation": "蓝绿色马赛克",
+    "scope": "material display name",
+    "asset_keys": [
+      "Bath-Tiles-01"
+    ]
+  },
+  {
+    "source": "Checkerboard Tile",
+    "translation": "棋盘格瓷砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Bath-Tiles-02"
+    ]
+  },
+  {
+    "source": "Glazed Tile Green",
+    "translation": "绿色釉面砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Bath-Tiles-03"
+    ]
+  },
+  {
+    "source": "Mosaic Sage",
+    "translation": "鼠尾草绿马赛克",
+    "scope": "material display name",
+    "asset_keys": [
+      "Bath-Tiles"
+    ]
+  },
+  {
+    "source": "Ceramic White",
+    "translation": "白色陶瓷",
+    "scope": "material display name",
+    "asset_keys": [
+      "Ceramic-02"
+    ]
+  },
+  {
+    "source": "Relief Tile Taupe",
+    "translation": "灰褐色浮雕砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Decor-Tiles-01"
+    ]
+  },
+  {
+    "source": "3D Tile Charcoal",
+    "translation": "炭灰色立体砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Decor-Tiles-02"
+    ]
+  },
+  {
+    "source": "Hexagon Mosaic Black",
+    "translation": "黑色六边形马赛克",
+    "scope": "material display name",
+    "asset_keys": [
+      "Decor-Tiles-03"
+    ]
+  },
+  {
+    "source": "Tile Cream Marble",
+    "translation": "奶油色大理石砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Floor-Tiles-01"
+    ]
+  },
+  {
+    "source": "Tile Terracotta",
+    "translation": "陶土砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Floor-Tiles-02"
+    ]
+  },
+  {
+    "source": "Tile Slate Grey",
+    "translation": "板岩灰瓷砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Floor-Tiles-03"
+    ]
+  },
+  {
+    "source": "Tile Blush",
+    "translation": "浅粉色瓷砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Floor-Tiles-Stone"
+    ]
+  },
+  {
+    "source": "Tile Large Grey",
+    "translation": "灰色大砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Floor-Tiles"
+    ]
+  },
+  {
+    "source": "Tile Grey Stone",
+    "translation": "灰色石材砖",
+    "scope": "material display name",
+    "asset_keys": [
+      "Stone-Tiles-01"
+    ]
+  },
+  {
+    "source": "Pool Water",
+    "translation": "泳池水",
+    "scope": "material display name",
+    "asset_keys": [
+      "MI_Water_SwimmingPool1"
+    ]
+  },
+  {
+    "source": "Pool Water Light",
+    "translation": "浅色泳池水",
+    "scope": "material display name",
+    "asset_keys": [
+      "MI_dvizAP_Pool_Water"
+    ]
+  },
+  {
+    "source": "Sea Water",
+    "translation": "海水",
+    "scope": "material display name",
+    "asset_keys": [
+      "Water-Sea"
+    ]
+  },
+  {
+    "source": "Oak Plank Pale",
+    "translation": "淡色橡木板",
+    "scope": "material display name",
+    "asset_keys": [
+      "Floor-Wood-00"
+    ]
+  },
+  {
+    "source": "Oak Plank",
+    "translation": "橡木板",
+    "scope": "material display name",
+    "asset_keys": [
+      "Floor-Wood-01"
+    ]
+  },
+  {
+    "source": "Oak Parquet Block",
+    "translation": "橡木方块拼花地板",
+    "scope": "material display name",
+    "asset_keys": [
+      "Floor-Wood-02"
+    ]
+  },
+  {
+    "source": "Oak Herringbone Grey",
+    "translation": "灰色橡木人字拼地板",
+    "scope": "material display name",
+    "asset_keys": [
+      "Floor-Wood-03"
+    ]
+  },
+  {
+    "source": "Wenge Plank",
+    "translation": "鸡翅木板",
+    "scope": "material display name",
+    "asset_keys": [
+      "Floor-Wood-04"
+    ]
+  },
+  {
+    "source": "Oak Overlay Light",
+    "translation": "浅色橡木拼花",
+    "scope": "material display name",
+    "asset_keys": [
+      "M_Oak_Ovrly_05_Mat_Inst"
+    ]
+  },
+  {
+    "source": "Oak Versailles",
+    "translation": "橡木凡尔赛拼花地板",
+    "scope": "material display name",
+    "asset_keys": [
+      "M_Oak_Vrslls_05_Mat_Inst"
+    ]
+  },
+  {
+    "source": "Cherry",
+    "translation": "樱桃木",
+    "scope": "material display name",
+    "asset_keys": [
+      "MI_dvizAP_Wood_10"
+    ]
+  },
+  {
+    "source": "Oak Light",
+    "translation": "浅色橡木",
+    "scope": "material display name",
+    "asset_keys": [
+      "MI_dvizAP_Wood_11"
+    ]
+  },
+  {
+    "source": "Ash Grey",
+    "translation": "灰色白蜡木",
+    "scope": "material display name",
+    "asset_keys": [
+      "Wood-01"
+    ]
+  },
+  {
+    "source": "Maple",
+    "translation": "枫木",
+    "scope": "material display name",
+    "asset_keys": [
+      "Wood-02"
+    ]
+  },
+  {
+    "source": "Birch",
+    "translation": "桦木",
+    "scope": "material display name",
+    "asset_keys": [
+      "Wood-03"
+    ]
+  },
+  {
+    "source": "Walnut Grey",
+    "translation": "灰色胡桃木",
+    "scope": "material display name",
+    "asset_keys": [
+      "Wood-04"
+    ]
+  },
+  {
+    "source": "Walnut",
+    "translation": "胡桃木",
+    "scope": "material display name",
+    "asset_keys": [
+      "Wood-05"
+    ]
+  },
+  {
+    "source": "Oak Honey",
+    "translation": "蜜色橡木",
+    "scope": "material display name",
+    "asset_keys": [
+      "Wood-06"
+    ]
+  },
+  {
+    "source": "Oak Natural",
+    "translation": "原色橡木",
+    "scope": "material display name",
+    "asset_keys": [
+      "Wood-07"
+    ]
+  },
+  {
+    "source": "Elm",
+    "translation": "榆木",
+    "scope": "material display name",
+    "asset_keys": [
+      "Wood-08"
+    ]
+  },
+  {
+    "source": "Oak Rustic",
+    "translation": "乡村风橡木",
+    "scope": "material display name",
+    "asset_keys": [
+      "Wood-09"
+    ]
+  },
+  {
+    "source": "Driftwood Grey",
+    "translation": "灰色浮木",
+    "scope": "material display name",
+    "asset_keys": [
+      "Wood-10"
+    ]
+  },
+  {
+    "source": "Oak Smoked",
+    "translation": "烟熏橡木",
+    "scope": "material display name",
+    "asset_keys": [
+      "Wood-11"
+    ]
+  },
+  {
+    "source": "Chrome",
+    "translation": "铬金属",
+    "scope": "material display name",
+    "asset_keys": [
+      "Metal-01"
+    ]
+  },
+  {
+    "source": "Polished Steel",
+    "translation": "抛光钢",
+    "scope": "material display name",
+    "asset_keys": [
+      "Metal-02"
+    ]
+  },
+  {
+    "source": "Gunmetal",
+    "translation": "炮铜灰金属",
+    "scope": "material display name",
+    "asset_keys": [
+      "Metal-Black-01"
+    ]
+  },
+  {
+    "source": "Black Gloss",
+    "translation": "亮黑色",
+    "scope": "material display name",
+    "asset_keys": [
+      "Metal-Black-02"
+    ]
+  },
+  {
+    "source": "Bronze",
+    "translation": "青铜",
+    "scope": "material display name",
+    "asset_keys": [
+      "Metal-Bronce"
+    ]
+  },
+  {
+    "source": "Black Chrome",
+    "translation": "黑铬",
+    "scope": "material display name",
+    "asset_keys": [
+      "Metal-Brushed"
+    ]
+  },
+  {
+    "source": "Copper",
+    "translation": "铜",
+    "scope": "material display name",
+    "asset_keys": [
+      "Metal-Copper"
+    ]
+  },
+  {
+    "source": "Gold",
+    "translation": "金色",
+    "scope": "material display name",
+    "asset_keys": [
+      "Metal-Gold"
+    ]
+  },
+  {
+    "source": "White Metal",
+    "translation": "白色金属",
+    "scope": "material display name",
+    "asset_keys": [
+      "Metal-White"
+    ]
+  },
+  {
+    "source": "Light Warm",
+    "translation": "暖光",
+    "scope": "material display name",
+    "asset_keys": [
+      "Light-Warm"
+    ]
+  },
+  {
+    "source": "Light Warm White",
+    "translation": "暖白光",
+    "scope": "material display name",
+    "asset_keys": [
+      "Light-WarmWhite"
+    ]
+  },
+  {
+    "source": "Curtain Fabric",
+    "translation": "窗帘布",
+    "scope": "material display name",
+    "asset_keys": [
+      "MI_Vorhang_VAT"
+    ]
+  },
+  {
+    "source": "Firewood",
+    "translation": "柴火",
+    "scope": "material display name",
+    "asset_keys": [
+      "MI_Feuerholz"
+    ]
+  },
+  {
+    "source": "Burner Steel",
+    "translation": "炉具钢材",
+    "scope": "material display name",
+    "asset_keys": [
+      "MI_AI_vol9_05_metal_iron_01"
+    ]
+  },
+  {
+    "source": "Linen",
+    "translation": "亚麻布",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/0_Materials/MI_AI_vol9_05_fabric_linen_01.MI_AI_vol9_05_fabric_linen_01"
+    ]
+  },
+  {
+    "source": "Asphalt Cracked",
+    "translation": "开裂沥青",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/0_Materials/MI_Cracked_Asphalt_viucdag_8K.MI_Cracked_Asphalt_viucdag_8K"
+    ]
+  },
+  {
+    "source": "Brick White Painted",
+    "translation": "白漆砖墙",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/0_Materials/MI_dvizAP_Brick_Wall.MI_dvizAP_Brick_Wall"
+    ]
+  },
+  {
+    "source": "Stucco Facade",
+    "translation": "灰泥外墙",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/0_Materials/MI_dvizAP_Stucco_Facade.MI_dvizAP_Stucco_Facade"
+    ]
+  },
+  {
+    "source": "Beech Herringbone",
+    "translation": "山毛榉人字拼地板",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/0_Materials/M_Beech_Hrrngbn_02_Mat_Inst.M_Beech_Hrrngbn_02_Mat_Inst"
+    ]
+  },
+  {
+    "source": "Beech Versailles",
+    "translation": "山毛榉凡尔赛拼花地板",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/0_Materials/M_Beech_Vrslls_02_Mat_Inst.M_Beech_Vrslls_02_Mat_Inst"
+    ]
+  },
+  {
+    "source": "Oak Overlay Natural",
+    "translation": "原色橡木拼花",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/0_Materials/M_Oak_Ovrly_03_Mat_Inst.M_Oak_Ovrly_03_Mat_Inst"
+    ]
+  },
+  {
+    "source": "Oak Overlay Dark",
+    "translation": "深色橡木拼花",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/0_Materials/M_Oak_Ovrly_04_Mat_Inst.M_Oak_Ovrly_04_Mat_Inst"
+    ]
+  },
+  {
+    "source": "Walnut Light",
+    "translation": "浅色胡桃木",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/1BIBNEU/4/Materials/Tabletop_Top_mtl__0.Tabletop_Top_mtl__0"
+    ]
+  },
+  {
+    "source": "Navy Weave",
+    "translation": "藏蓝色编织布",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/1BIBNEU/Extractor_Hood_NK36N5703BS_vray/Materials/References/grid.grid"
+    ]
+  },
+  {
+    "source": "Leaf Pattern",
+    "translation": "叶纹",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/1BIBNEU/Pure_White_Vase_Pot_Plant/Materials/References/leave4.leave4"
+    ]
+  },
+  {
+    "source": "Paving Stones Grey",
+    "translation": "灰色铺路石",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/1BIBNEU/Surb__sidewalk__road_tray/Materials/paving_stone_.paving_stone_"
+    ]
+  },
+  {
+    "source": "Striped Carpet",
+    "translation": "条纹地毯",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/1BIBNEU/Table_Modern/Materials/References/Material__249.Material__249"
+    ]
+  },
+  {
+    "source": "Floral Pattern",
+    "translation": "花卉图案",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/1BIBNEU/dry_Flower/Materials/References/gort.gort"
+    ]
+  },
+  {
+    "source": "Granite Grey",
+    "translation": "灰色花岗岩",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/1BIBNEU/g2/Materials/A_Material__57.A_Material__57"
+    ]
+  },
+  {
+    "source": "Oak Basketweave",
+    "translation": "橡木篮编拼花地板",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/4K_WoodFlooring_Vol_02/Materials/M_Oak_Bskt_03_Mat_Inst.M_Oak_Bskt_03_Mat_Inst"
+    ]
+  },
+  {
+    "source": "Oak Strip Floor",
+    "translation": "橡木条形地板",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/4K_WoodFlooring_Vol_02/Materials/M_Oak_Strp_03_Mat_Inst.M_Oak_Strp_03_Mat_Inst"
+    ]
+  },
+  {
+    "source": "Walnut Basketweave",
+    "translation": "胡桃木篮编拼花地板",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/4K_WoodFlooring_Vol_02/Materials/M_Walnut_Bskt_02_Mat_Inst.M_Walnut_Bskt_02_Mat_Inst"
+    ]
+  },
+  {
+    "source": "Walnut Herringbone",
+    "translation": "胡桃木人字拼地板",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/4K_WoodFlooring_Vol_02/Materials/M_Walnut_Hrrngbn_02_Mat_Inst.M_Walnut_Hrrngbn_02_Mat_Inst"
+    ]
+  },
+  {
+    "source": "Striped Linen",
+    "translation": "条纹亚麻布",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_ceramic_03.MI_AI_vol9_05_ceramic_03"
+    ]
+  },
+  {
+    "source": "Cement Tile Pattern",
+    "translation": "水泥花砖",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_ceramic_05.MI_AI_vol9_05_ceramic_05"
+    ]
+  },
+  {
+    "source": "Clay Plaster",
+    "translation": "黏土灰泥",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_clay_01.MI_AI_vol9_05_clay_01"
+    ]
+  },
+  {
+    "source": "Woven Fabric",
+    "translation": "编织布",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_fabric_woven_01.MI_AI_vol9_05_fabric_woven_01"
+    ]
+  },
+  {
+    "source": "Nappa Leather Brown",
+    "translation": "棕色纳帕皮革",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_leather_nappa_01.MI_AI_vol9_05_leather_nappa_01"
+    ]
+  },
+  {
+    "source": "Iron Raw",
+    "translation": "原色铁",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_metal_iron_01.MI_AI_vol9_05_metal_iron_01"
+    ]
+  },
+  {
+    "source": "Steel Dark Textured",
+    "translation": "深色纹理钢材",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_metal_steel_04.MI_AI_vol9_05_metal_steel_04"
+    ]
+  },
+  {
+    "source": "Fluted Stone White",
+    "translation": "白色竖槽石材",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_stone_01.MI_AI_vol9_05_stone_01"
+    ]
+  },
+  {
+    "source": "Stone Floor Light",
+    "translation": "浅色石材地板",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_stone_floor_01.MI_AI_vol9_05_stone_floor_01"
+    ]
+  },
+  {
+    "source": "Wood Black",
+    "translation": "黑色木材",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_wood_black_koto_01.MI_AI_vol9_05_wood_black_koto_01"
+    ]
+  },
+  {
+    "source": "Teak",
+    "translation": "柚木",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_wood_oak_01.MI_AI_vol9_05_wood_oak_01"
+    ]
+  },
+  {
+    "source": "Black Marble",
+    "translation": "黑色大理石",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/BlackBox/Materials/MI_BlackMarbel.MI_BlackMarbel"
+    ]
+  },
+  {
+    "source": "Terrazzo Grey",
+    "translation": "灰色水磨石",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/BlackBox/Materials/MI_Interior_Rocks.MI_Interior_Rocks"
+    ]
+  },
+  {
+    "source": "Concrete Floor Light",
+    "translation": "浅色混凝土地板",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/DVIZ_APARTMENT_01/MATERIALS/INSTANCE/MI_Concrete_Floor_vljodhs_2K.MI_Concrete_Floor_vljodhs_2K"
+    ]
+  },
+  {
+    "source": "Concrete Worn",
+    "translation": "做旧混凝土",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/DVIZ_APARTMENT_01/MATERIALS/INSTANCE/MI_Damaged_Concrete_Floor_vizbdg1_2K3.MI_Damaged_Concrete_Floor_vizbdg1_2K3"
+    ]
+  },
+  {
+    "source": "Leather Cognac",
+    "translation": "干邑棕皮革",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/DVIZ_APARTMENT_01/MATERIALS/INSTANCE/MI_dvizAP_Leather_03.MI_dvizAP_Leather_03"
+    ]
+  },
+  {
+    "source": "Ribbed Fabric",
+    "translation": "罗纹布",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/DVIZ_APARTMENT_01/MATERIALS/dvizLibrary/MI_dvizAP_Fabric_02.MI_dvizAP_Fabric_02"
+    ]
+  },
+  {
+    "source": "Granite Black",
+    "translation": "黑色花岗岩",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Furniture/_Deps/Materials/MI_dvizAP_Black_Granite.MI_dvizAP_Black_Granite"
+    ]
+  },
+  {
+    "source": "Felt Grey",
+    "translation": "灰色毛毡",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Furniture/_Deps/Materials/MI_dvizAP_Fabric_Sheet_02.MI_dvizAP_Fabric_Sheet_02"
+    ]
+  },
+  {
+    "source": "Boucle Sand",
+    "translation": "沙色圈圈绒",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Furniture/_Deps/Materials/MI_dviz_Fabric_02.MI_dviz_Fabric_02"
+    ]
+  },
+  {
+    "source": "Line Pattern",
+    "translation": "线条图案",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Furniture/_Deps/Materials/Print_4.Print_4"
+    ]
+  },
+  {
+    "source": "Charcoal Fabric",
+    "translation": "炭灰色布料",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/InfinityAssets/Materials/Fabric/MI_Fabric_Charcoal_Texture_01.MI_Fabric_Charcoal_Texture_01"
+    ]
+  },
+  {
+    "source": "Pine Needles",
+    "translation": "松针",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/InfinityAssets/Materials/Ground/MI_Ground_DryNeedles_01.MI_Ground_DryNeedles_01"
+    ]
+  },
+  {
+    "source": "Wood Medium Brown",
+    "translation": "棕色木材",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/InfinityAssets/Materials/Wood/MI_Wood_MediumBrown_01.MI_Wood_MediumBrown_01"
+    ]
+  },
+  {
+    "source": "Wood Slats",
+    "translation": "木条",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Interactive_Loft/Materials/Instance/MI_Wood_00.MI_Wood_00"
+    ]
+  },
+  {
+    "source": "Asphalt",
+    "translation": "沥青",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Megascans/Surfaces/Asphalt_Road_vhwmdias/MI_Asphalt_Road_vhwmdias_4K.MI_Asphalt_Road_vhwmdias_4K"
+    ]
+  },
+  {
+    "source": "Whitewashed Herringbone",
+    "translation": "白洗人字拼地板",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/dviz_BEDPACK01/Bed09/Materials/MI_TileWood_Bed09.MI_TileWood_Bed09"
+    ]
+  },
+  {
+    "source": "Knit Grey",
+    "translation": "灰色针织布",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/dviz_BEDPACK01/Bed10/Materials/MI_Bed10_Blanked.MI_Bed10_Blanked"
+    ]
+  },
+  {
+    "source": "Plaid",
+    "translation": "格纹布",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/dviz_BEDPACK01/Bed10/Materials/MI_Bed10_DuvetFront.MI_Bed10_DuvetFront"
+    ]
+  },
+  {
+    "source": "Carpet Diamond",
+    "translation": "菱形地毯",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/dviz_BEDPACK01/Misc/Materials/MI_Bed08_Carpet01.MI_Bed08_Carpet01"
+    ]
+  },
+  {
+    "source": "Terrazzo Rose",
+    "translation": "玫瑰色水磨石",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/dviz_BEDPACK01/Misc/Materials/M_Bed09.M_Bed09"
+    ]
+  },
+  {
+    "source": "Moss & Leaves",
+    "translation": "苔藓与落叶",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Megascans/Surfaces/Mossy_Leaf_Ground_xiboddsr/Mossy_Inst.Mossy_Inst"
+    ]
+  },
+  {
+    "source": "Garden Soil",
+    "translation": "园土",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/dViz_Plant_Pack/Material/Instance_Material/MI_dvizPlantack_Ground_01_Inst.MI_dvizPlantack_Ground_01_Inst"
+    ]
+  },
+  {
+    "source": "Dirt",
+    "translation": "泥土",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Furniture/_Deps/AntiTiling/MI_AT_Dirt.MI_AT_Dirt"
+    ]
+  },
+  {
+    "source": "Mud",
+    "translation": "泥浆",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Furniture/_Deps/AntiTiling/MI_AT_Mud.MI_AT_Mud"
+    ]
+  },
+  {
+    "source": "Cliff",
+    "translation": "岩壁",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Fab/Megascans/Surfaces/Layered_Rock_Cliff_tjtmcg3g/Medium/MI_tjtmcg3g.MI_tjtmcg3g"
+    ]
+  },
+  {
+    "source": "Grass",
+    "translation": "草地",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Mat/M_Grass025POMTest.M_Grass025POMTest"
+    ]
+  },
+  {
+    "source": "Sand",
+    "translation": "沙地",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Furniture/_Deps/FPOM/MI_FPOM_Sand.MI_FPOM_Sand"
+    ]
+  },
+  {
+    "source": "Gravel",
+    "translation": "砾石",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Furniture/_Deps/FPOM/MI_FPOM_Gravel.MI_FPOM_Gravel"
+    ]
+  },
+  {
+    "source": "Mulch",
+    "translation": "覆盖土",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Furniture/_Deps/FPOM/MI_FPOM_Mulch.MI_FPOM_Mulch"
+    ]
+  },
+  {
+    "source": "Stone",
+    "translation": "石材",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Furniture/_Deps/FPOM/MI_FPOM_Stone.MI_FPOM_Stone"
+    ]
+  },
+  {
+    "source": "Pebbles",
+    "translation": "卵石",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Furniture/_Deps/FPOM/MI_FPOM_Pebbles.MI_FPOM_Pebbles"
+    ]
+  },
+  {
+    "source": "Brick Weathered",
+    "translation": "风化砖",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Furniture/_Deps/FPOM/MI_FPOM_Brick_01.MI_FPOM_Brick_01"
+    ]
+  },
+  {
+    "source": "Brick Sandstone Block",
+    "translation": "砂岩砌块",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Furniture/_Deps/FPOM/MI_FPOM_Brick_02.MI_FPOM_Brick_02"
+    ]
+  },
+  {
+    "source": "Brick Red Classic",
+    "translation": "经典红砖",
+    "scope": "additional material display name",
+    "asset_paths": [
+      "/Game/Furniture/_Deps/FPOM/MI_FPOM_Brick_03.MI_FPOM_Brick_03"
+    ]
+  },
+  {
+    "source": "Fabric Off White",
+    "translation": "米白色布料",
+    "scope": "library tooltip normalized alias",
+    "asset_keys": [
+      "Fabric-OffWhite"
+    ]
+  }
+]

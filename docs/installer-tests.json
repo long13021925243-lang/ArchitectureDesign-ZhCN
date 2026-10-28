@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "production_setup_sha256": "72e04371623f157755c6398f3e2a800ffcf4f5dc20c2462c2bc08e49f2a41033",
+  "patched_exe_sha256": "2b232cd4dbdbd9abe87495a115d8d480d16c61e6348d0aebd72702c6044fd5e3",
+  "tests": [
+    {
+      "name": "release_zip_contains_only_declared_nonfont_entries",
+      "status": "passed",
+      "seconds": 0.016,
+      "details": {
+        "zip_payload_entries": 3,
+        "zip_font_entries": 0,
+        "note": "PAK contents are checked by the separate release build verification."
+      }
+    },
+    {
+      "name": "production_install_preserves_original_files_and_save",
+      "status": "passed",
+      "seconds": 7.156
+    },
+    {
+      "name": "production_verify",
+      "status": "passed",
+      "seconds": 0.609
+    },
+    {
+      "name": "repeat_install_has_no_payload_or_backup_changes",
+      "status": "passed",
+      "seconds": 1.375
+    },
+    {
+      "name": "repair_missing_font_and_damaged_resource",
+      "status": "passed",
+      "seconds": 12.641
+    },
+    {
+      "name": "production_restore_is_byte_exact",
+      "status": "passed",
+      "seconds": 5.156
+    },
+    {
+      "name": "clean_install_restore_removes_only_added_payload",
+      "status": "passed",
+      "seconds": 14.766
+    },
+    {
+      "name": "unknown_game_refused_without_mutation",
+      "status": "passed",
+      "seconds": 0.172
+    },
+    {
+      "name": "legacy_R3_upgrade_preserves_first_backup_and_restore",
+      "status": "passed",
+      "seconds": 20.797
+    },
+    {
+      "name": "different_valid_font_versions_and_system_font_update",
+      "status": "passed",
+      "seconds": 14.047
+    },
+    {
+      "name": "verify_and_restore_without_system_fonts",
+      "status": "passed",
+      "seconds": 5.703
+    },
+    {
+      "name": "missing_or_invalid_fonts_refuse_install_without_mutation",
+      "status": "passed",
+      "seconds": 1.422
+    },
+    {
+      "name": "font_update_late_failure_rolls_back_and_restores_without_fonts",
+      "status": "passed",
+      "seconds": 17.875
+    },
+    {
+      "name": "failed_repair_does_not_accept_corrupt_font_as_valid",
+      "status": "passed",
+      "seconds": 24.078
+    }
+  ],
+  "scope": "Only fresh simulated roots; original EXE and Windows font sources are read-only.",
+  "test_only_setup_sha256": "e620cae085cc0ca335b5e203c4dd50d510354e49001677694ea09aead9b28b88",
+  "finished_utc": "2026-10-28T14:02:51Z",
+  "total_tests": 14
+}

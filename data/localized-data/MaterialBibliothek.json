@@ -1,0 +1,497 @@
+{
+  "_hinweis": "Material-Bibliothek: Kategorie je Unterordner von Materials_Tool ('ordner'), Ausnahmen je Asset-Name ('namen', gewinnt), Liegt ein Material direkt in Materials_Tool UND gleichnamig in einem Unterordner, zeigt die Bibliothek nur das im Unterordner. 'zusatz' = Materialien aus anderen Ordnern (Pfad, Kategorie, Anzeigename). Damit sie ins Paket kommen, stehen sie auch in /Game/Furniture/_Deps/Materials_Tool/DA_MaterialBibliothek (Tools/mat_bibliothek_da.py). GEPRUEFT AUF 6 x 6 m (-matthumbs -kachel=600 -auge=560): was sein 1-m-Raster zeigt, ist nicht drin; Erde/Fels ueber M_AntiTiling (Tools/mat_antitiling.py). Kategorie '-' in 'namen' = in der Bibliothek ausblenden. NATURE (04.10.2026): nur das Hauptgras (M_Grass025POMTest); Landscape/Sand war eine Kopie von Gravel -> Sand = M_KiesPOMTest (Beach Sand Pebbles = dasselbe, raus); Cliff ohne POM (Megascans hat keine Hoehenkarte, das Material las die ORM-Textur als Hoehe -> Streifen). 'anzeige' = Anzeigename je Asset-Name (Spielstaende speichern den Pfad, nicht den Namen). FPOM (05.10.2026): Bibliothek nimmt die Wand-Fassungen /Game/Furniture/_Deps/FPOM (Mesh-UV statt Welt-Projektion, Tools/mat_fpom_uv.py); Gelaende/Wege behalten die Originale. Brick-04/05 = dieselben Texturen wie MI_FPOM_Brick_03/02 -> ausgeblendet. Rock/Rock Slab (06.10.2026, Meadow) raus: Anti-Tiling-Zellen zerfallen an Waenden in Kachelmuster - Chris: Materialien, die nur fuer eine bestimmte Lage/UV taugen, gehoeren nicht in die Bibliothek (Assets bleiben fuer alte Staende). GRASS (06.10.2026, Chris: soll genauso aussehen wie im Terrain): wieder das Original M_Grass025POMTest - die Wand-Fassung war gemessen blasser (Rauheit 0,8 der Kies-Vorlage statt 1,0, jetzt korrigiert per Tools/fpom_rauheit.py, Rest = Welt-Normalen); MI_FPOM_Grass bleibt fuer alte Staende.",
+  "ordner": {
+    "Fabric": "Fabric",
+    "Floor": "Wood Floors",
+    "Metal": "Metal",
+    "Stone": "Stone",
+    "Tiles": "Tiles",
+    "Wood": "Wood",
+    "Landscape": "Nature",
+    "Others": "Others"
+  },
+  "namen": {
+    "Brick-01": "Brick",
+    "Brick-02": "Brick",
+    "Brick-03": "Brick",
+    "Brick-04": "-",
+    "Brick-05": "-",
+    "M_Brick_02_Inst": "Brick",
+    "Color-Black": "Plaster & Paint",
+    "Color-Grey": "Plaster & Paint",
+    "Color-White": "Plaster & Paint",
+    "Color-White-02": "Plaster & Paint",
+    "Wall-Plaster-Beige": "Plaster & Paint",
+    "Wall-Plaster-Black": "Plaster & Paint",
+    "Wall-Plaster-White": "Plaster & Paint",
+    "MI_dvizAP_Grey": "Plaster & Paint",
+    "MI_dvizAP_Orange": "Plaster & Paint",
+    "MI_dvizAP_White": "Plaster & Paint",
+    "Glass": "Glass & Mirror",
+    "Mirror": "Glass & Mirror",
+    "MI_Water_SwimmingPool1": "Water",
+    "MI_dvizAP_Pool_Water": "Water",
+    "Water-Sea": "Water",
+    "Light-Warm": "Light & Special",
+    "Light-WarmWhite": "Light & Special",
+    "LIGHT": "Light & Special",
+    "Invisible": "Light & Special",
+    "Concrete-01": "Concrete & Asphalt",
+    "Concrete-02": "Concrete & Asphalt",
+    "Concrete-03": "Concrete & Asphalt",
+    "Concrete-04": "Concrete & Asphalt",
+    "Floor-Smooth-Concrete": "Concrete & Asphalt",
+    "Ceramic-02": "Tiles",
+    "MI_dviz_White_Ceramic_01": "Tiles",
+    "Floor-Tiles": "Tiles",
+    "Floor-Tiles-01": "Tiles",
+    "Floor-Tiles-02": "Tiles",
+    "Floor-Tiles-03": "Tiles",
+    "Floor-Tiles-Stone": "Tiles",
+    "Floor-Stone-01": "Stone",
+    "Floor-Paving-01": "Stone",
+    "Fabric-Leather-Black": "Fabric",
+    "MI_dvizAP_Leather_02": "Fabric",
+    "MI_dvizAP_Black_Metal": "Metal",
+    "MI_dvizAP_Brushed_Aluminum": "Metal",
+    "MI_dvizAP_Metallic_01": "Metal",
+    "MI_dviz_Metal_01": "Metal",
+    "Metal1": "Metal",
+    "MI_dvizAP_Fabric_01": "Fabric",
+    "MI_dvizAP_Fabric_Sheet_01": "Fabric",
+    "MI_dvizAP_Oak_01": "Wood",
+    "Sand": "-",
+    "Grass-Uncut": "-",
+    "Grass-Clover": "-",
+    "Cliff": "-",
+    "Gravel": "-",
+    "Mulch": "-",
+    "Stone": "-"
+  },
+  "zusatz": [
+    {
+      "pfad": "/Game/0_Materials/MI_AI_vol9_05_fabric_linen_01.MI_AI_vol9_05_fabric_linen_01",
+      "kat": "Fabric",
+      "name": "亚麻布"
+    },
+    {
+      "pfad": "/Game/0_Materials/MI_Cracked_Asphalt_viucdag_8K.MI_Cracked_Asphalt_viucdag_8K",
+      "kat": "Concrete & Asphalt",
+      "name": "开裂沥青"
+    },
+    {
+      "pfad": "/Game/0_Materials/MI_dvizAP_Brick_Wall.MI_dvizAP_Brick_Wall",
+      "kat": "Brick",
+      "name": "白漆砖墙"
+    },
+    {
+      "pfad": "/Game/0_Materials/MI_dvizAP_Stucco_Facade.MI_dvizAP_Stucco_Facade",
+      "kat": "Plaster & Paint",
+      "name": "灰泥外墙"
+    },
+    {
+      "pfad": "/Game/0_Materials/M_Beech_Hrrngbn_02_Mat_Inst.M_Beech_Hrrngbn_02_Mat_Inst",
+      "kat": "Wood Floors",
+      "name": "山毛榉人字拼地板"
+    },
+    {
+      "pfad": "/Game/0_Materials/M_Beech_Vrslls_02_Mat_Inst.M_Beech_Vrslls_02_Mat_Inst",
+      "kat": "Wood Floors",
+      "name": "山毛榉凡尔赛拼花地板"
+    },
+    {
+      "pfad": "/Game/0_Materials/M_Oak_Ovrly_03_Mat_Inst.M_Oak_Ovrly_03_Mat_Inst",
+      "kat": "Wood Floors",
+      "name": "原色橡木拼花"
+    },
+    {
+      "pfad": "/Game/0_Materials/M_Oak_Ovrly_04_Mat_Inst.M_Oak_Ovrly_04_Mat_Inst",
+      "kat": "Wood Floors",
+      "name": "深色橡木拼花"
+    },
+    {
+      "pfad": "/Game/1BIBNEU/4/Materials/Tabletop_Top_mtl__0.Tabletop_Top_mtl__0",
+      "kat": "Wood",
+      "name": "浅色胡桃木"
+    },
+    {
+      "pfad": "/Game/1BIBNEU/Extractor_Hood_NK36N5703BS_vray/Materials/References/grid.grid",
+      "kat": "Fabric",
+      "name": "藏蓝色编织布"
+    },
+    {
+      "pfad": "/Game/1BIBNEU/Pure_White_Vase_Pot_Plant/Materials/References/leave4.leave4",
+      "kat": "Patterns",
+      "name": "叶纹"
+    },
+    {
+      "pfad": "/Game/1BIBNEU/Surb__sidewalk__road_tray/Materials/paving_stone_.paving_stone_",
+      "kat": "Stone",
+      "name": "灰色铺路石"
+    },
+    {
+      "pfad": "/Game/1BIBNEU/Table_Modern/Materials/References/Material__249.Material__249",
+      "kat": "Fabric",
+      "name": "条纹地毯"
+    },
+    {
+      "pfad": "/Game/1BIBNEU/dry_Flower/Materials/References/gort.gort",
+      "kat": "Patterns",
+      "name": "花卉图案"
+    },
+    {
+      "pfad": "/Game/1BIBNEU/g2/Materials/A_Material__57.A_Material__57",
+      "kat": "Stone",
+      "name": "灰色花岗岩"
+    },
+    {
+      "pfad": "/Game/4K_WoodFlooring_Vol_02/Materials/M_Oak_Bskt_03_Mat_Inst.M_Oak_Bskt_03_Mat_Inst",
+      "kat": "Wood Floors",
+      "name": "橡木篮编拼花地板"
+    },
+    {
+      "pfad": "/Game/4K_WoodFlooring_Vol_02/Materials/M_Oak_Strp_03_Mat_Inst.M_Oak_Strp_03_Mat_Inst",
+      "kat": "Wood Floors",
+      "name": "橡木条形地板"
+    },
+    {
+      "pfad": "/Game/4K_WoodFlooring_Vol_02/Materials/M_Walnut_Bskt_02_Mat_Inst.M_Walnut_Bskt_02_Mat_Inst",
+      "kat": "Wood Floors",
+      "name": "胡桃木篮编拼花地板"
+    },
+    {
+      "pfad": "/Game/4K_WoodFlooring_Vol_02/Materials/M_Walnut_Hrrngbn_02_Mat_Inst.M_Walnut_Hrrngbn_02_Mat_Inst",
+      "kat": "Wood Floors",
+      "name": "胡桃木人字拼地板"
+    },
+    {
+      "pfad": "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_ceramic_03.MI_AI_vol9_05_ceramic_03",
+      "kat": "Fabric",
+      "name": "条纹亚麻布"
+    },
+    {
+      "pfad": "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_ceramic_05.MI_AI_vol9_05_ceramic_05",
+      "kat": "Tiles",
+      "name": "水泥花砖"
+    },
+    {
+      "pfad": "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_clay_01.MI_AI_vol9_05_clay_01",
+      "kat": "Plaster & Paint",
+      "name": "黏土灰泥"
+    },
+    {
+      "pfad": "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_fabric_woven_01.MI_AI_vol9_05_fabric_woven_01",
+      "kat": "Fabric",
+      "name": "编织布"
+    },
+    {
+      "pfad": "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_leather_nappa_01.MI_AI_vol9_05_leather_nappa_01",
+      "kat": "Fabric",
+      "name": "棕色纳帕皮革"
+    },
+    {
+      "pfad": "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_metal_iron_01.MI_AI_vol9_05_metal_iron_01",
+      "kat": "Metal",
+      "name": "原色铁"
+    },
+    {
+      "pfad": "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_metal_steel_04.MI_AI_vol9_05_metal_steel_04",
+      "kat": "Metal",
+      "name": "深色纹理钢材"
+    },
+    {
+      "pfad": "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_stone_01.MI_AI_vol9_05_stone_01",
+      "kat": "Stone",
+      "name": "白色竖槽石材"
+    },
+    {
+      "pfad": "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_stone_floor_01.MI_AI_vol9_05_stone_floor_01",
+      "kat": "Stone",
+      "name": "浅色石材地板"
+    },
+    {
+      "pfad": "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_wood_black_koto_01.MI_AI_vol9_05_wood_black_koto_01",
+      "kat": "Wood",
+      "name": "黑色木材"
+    },
+    {
+      "pfad": "/Game/AIUE5_vol9_05/materials/MI_AI_vol9_05_wood_oak_01.MI_AI_vol9_05_wood_oak_01",
+      "kat": "Wood",
+      "name": "柚木"
+    },
+    {
+      "pfad": "/Game/BlackBox/Materials/MI_BlackMarbel.MI_BlackMarbel",
+      "kat": "Stone",
+      "name": "黑色大理石"
+    },
+    {
+      "pfad": "/Game/BlackBox/Materials/MI_Interior_Rocks.MI_Interior_Rocks",
+      "kat": "Stone",
+      "name": "灰色水磨石"
+    },
+    {
+      "pfad": "/Game/DVIZ_APARTMENT_01/MATERIALS/INSTANCE/MI_Concrete_Floor_vljodhs_2K.MI_Concrete_Floor_vljodhs_2K",
+      "kat": "Concrete & Asphalt",
+      "name": "浅色混凝土地板"
+    },
+    {
+      "pfad": "/Game/DVIZ_APARTMENT_01/MATERIALS/INSTANCE/MI_Damaged_Concrete_Floor_vizbdg1_2K3.MI_Damaged_Concrete_Floor_vizbdg1_2K3",
+      "kat": "Concrete & Asphalt",
+      "name": "做旧混凝土"
+    },
+    {
+      "pfad": "/Game/DVIZ_APARTMENT_01/MATERIALS/INSTANCE/MI_dvizAP_Leather_03.MI_dvizAP_Leather_03",
+      "kat": "Fabric",
+      "name": "干邑棕皮革"
+    },
+    {
+      "pfad": "/Game/DVIZ_APARTMENT_01/MATERIALS/dvizLibrary/MI_dvizAP_Fabric_02.MI_dvizAP_Fabric_02",
+      "kat": "Fabric",
+      "name": "罗纹布"
+    },
+    {
+      "pfad": "/Game/Furniture/_Deps/Materials/MI_dvizAP_Black_Granite.MI_dvizAP_Black_Granite",
+      "kat": "Stone",
+      "name": "黑色花岗岩"
+    },
+    {
+      "pfad": "/Game/Furniture/_Deps/Materials/MI_dvizAP_Fabric_Sheet_02.MI_dvizAP_Fabric_Sheet_02",
+      "kat": "Fabric",
+      "name": "灰色毛毡"
+    },
+    {
+      "pfad": "/Game/Furniture/_Deps/Materials/MI_dviz_Fabric_02.MI_dviz_Fabric_02",
+      "kat": "Fabric",
+      "name": "沙色圈圈绒"
+    },
+    {
+      "pfad": "/Game/Furniture/_Deps/Materials/Print_4.Print_4",
+      "kat": "Patterns",
+      "name": "线条图案"
+    },
+    {
+      "pfad": "/Game/InfinityAssets/Materials/Fabric/MI_Fabric_Charcoal_Texture_01.MI_Fabric_Charcoal_Texture_01",
+      "kat": "Fabric",
+      "name": "炭灰色布料"
+    },
+    {
+      "pfad": "/Game/InfinityAssets/Materials/Ground/MI_Ground_DryNeedles_01.MI_Ground_DryNeedles_01",
+      "kat": "Nature",
+      "name": "松针"
+    },
+    {
+      "pfad": "/Game/InfinityAssets/Materials/Wood/MI_Wood_MediumBrown_01.MI_Wood_MediumBrown_01",
+      "kat": "Wood",
+      "name": "棕色木材"
+    },
+    {
+      "pfad": "/Game/Interactive_Loft/Materials/Instance/MI_Wood_00.MI_Wood_00",
+      "kat": "Wood",
+      "name": "木条"
+    },
+    {
+      "pfad": "/Game/Megascans/Surfaces/Asphalt_Road_vhwmdias/MI_Asphalt_Road_vhwmdias_4K.MI_Asphalt_Road_vhwmdias_4K",
+      "kat": "Concrete & Asphalt",
+      "name": "沥青"
+    },
+    {
+      "pfad": "/Game/dviz_BEDPACK01/Bed09/Materials/MI_TileWood_Bed09.MI_TileWood_Bed09",
+      "kat": "Wood Floors",
+      "name": "白洗人字拼地板"
+    },
+    {
+      "pfad": "/Game/dviz_BEDPACK01/Bed10/Materials/MI_Bed10_Blanked.MI_Bed10_Blanked",
+      "kat": "Fabric",
+      "name": "灰色针织布"
+    },
+    {
+      "pfad": "/Game/dviz_BEDPACK01/Bed10/Materials/MI_Bed10_DuvetFront.MI_Bed10_DuvetFront",
+      "kat": "Fabric",
+      "name": "格纹布"
+    },
+    {
+      "pfad": "/Game/dviz_BEDPACK01/Misc/Materials/MI_Bed08_Carpet01.MI_Bed08_Carpet01",
+      "kat": "Fabric",
+      "name": "菱形地毯"
+    },
+    {
+      "pfad": "/Game/dviz_BEDPACK01/Misc/Materials/M_Bed09.M_Bed09",
+      "kat": "Stone",
+      "name": "玫瑰色水磨石"
+    },
+    {
+      "pfad": "/Game/Megascans/Surfaces/Mossy_Leaf_Ground_xiboddsr/Mossy_Inst.Mossy_Inst",
+      "kat": "Nature",
+      "name": "苔藓与落叶"
+    },
+    {
+      "pfad": "/Game/dViz_Plant_Pack/Material/Instance_Material/MI_dvizPlantack_Ground_01_Inst.MI_dvizPlantack_Ground_01_Inst",
+      "kat": "Nature",
+      "name": "园土"
+    },
+    {
+      "pfad": "/Game/Furniture/_Deps/AntiTiling/MI_AT_Dirt.MI_AT_Dirt",
+      "kat": "Nature",
+      "name": "泥土"
+    },
+    {
+      "pfad": "/Game/Furniture/_Deps/AntiTiling/MI_AT_Mud.MI_AT_Mud",
+      "kat": "Nature",
+      "name": "泥浆"
+    },
+    {
+      "pfad": "/Game/Fab/Megascans/Surfaces/Layered_Rock_Cliff_tjtmcg3g/Medium/MI_tjtmcg3g.MI_tjtmcg3g",
+      "kat": "Nature",
+      "name": "岩壁"
+    },
+    {
+      "pfad": "/Game/Mat/M_Grass025POMTest.M_Grass025POMTest",
+      "kat": "Nature",
+      "name": "草地"
+    },
+    {
+      "pfad": "/Game/Furniture/_Deps/FPOM/MI_FPOM_Sand.MI_FPOM_Sand",
+      "kat": "Nature",
+      "name": "沙地"
+    },
+    {
+      "pfad": "/Game/Furniture/_Deps/FPOM/MI_FPOM_Gravel.MI_FPOM_Gravel",
+      "kat": "Nature",
+      "name": "砾石"
+    },
+    {
+      "pfad": "/Game/Furniture/_Deps/FPOM/MI_FPOM_Mulch.MI_FPOM_Mulch",
+      "kat": "Nature",
+      "name": "覆盖土"
+    },
+    {
+      "pfad": "/Game/Furniture/_Deps/FPOM/MI_FPOM_Stone.MI_FPOM_Stone",
+      "kat": "Nature",
+      "name": "石材"
+    },
+    {
+      "pfad": "/Game/Furniture/_Deps/FPOM/MI_FPOM_Pebbles.MI_FPOM_Pebbles",
+      "kat": "Nature",
+      "name": "卵石"
+    },
+    {
+      "pfad": "/Game/Furniture/_Deps/FPOM/MI_FPOM_Brick_01.MI_FPOM_Brick_01",
+      "kat": "Brick",
+      "name": "风化砖"
+    },
+    {
+      "pfad": "/Game/Furniture/_Deps/FPOM/MI_FPOM_Brick_02.MI_FPOM_Brick_02",
+      "kat": "Brick",
+      "name": "砂岩砌块"
+    },
+    {
+      "pfad": "/Game/Furniture/_Deps/FPOM/MI_FPOM_Brick_03.MI_FPOM_Brick_03",
+      "kat": "Brick",
+      "name": "经典红砖"
+    }
+  ],
+  "anzeige": {
+    "Brick-01": "陶土砖",
+    "Brick-02": "炭灰色砖",
+    "Brick-03": "红棕色砖",
+    "Brick-04": "玫瑰色砖",
+    "Brick-05": "沙色砖",
+    "Concrete-01": "灰褐色混凝土",
+    "Concrete-02": "灰色混凝土",
+    "Concrete-03": "浅色混凝土",
+    "Concrete-04": "白色混凝土",
+    "Floor-Smooth-Concrete": "深色光滑混凝土",
+    "Fabric_Bedsheet": "白色棉布",
+    "Fabric-Bed": "灰色床品布料",
+    "Fabric-Beige-02": "灰褐色布料",
+    "Fabric-Beige-03": "暖灰色布料",
+    "Fabric-Blue": "藏蓝色布料",
+    "Fabric-Brown-01": "深灰褐色布料",
+    "Fabric-Brown": "沙色布料",
+    "Fabric-Green": "森林绿布料",
+    "Fabric-Grey-02": "灰色布料",
+    "Fabric-Grey": "石墨灰布料",
+    "Fabric-Leather-Black": "黑色皮革",
+    "Fabric-OffWhite": "米白色布料",
+    "Fabric-Orange": "芥末黄布料",
+    "Fabric-Red": "酒红色布料",
+    "Fabric-Towel": "白色毛巾布",
+    "Fabric-Velvet-Brown": "棕色天鹅绒",
+    "Fabric-White-02": "白色纹理布料",
+    "Fabric-White-03": "珍珠灰布料",
+    "Fabric-Yellow": "黄色布料",
+    "Fabric-curtain": "象牙白窗帘",
+    "MI_dvizAP_Leather_02": "铁锈色皮革",
+    "fabric_192_00_biege_8811": "石灰色布料",
+    "fabric_pillow_01": "炭灰色靠垫布",
+    "fabric_pillow_02_2": "灰色针织靠垫布",
+    "fabric-White-01": "白色亚麻布",
+    "Color-Black": "黑色涂料",
+    "Color-Grey": "灰色涂料",
+    "Color-White-02": "白色涂料",
+    "Color-White": "暖白色涂料",
+    "Wall-Plaster-Beige": "米色灰泥",
+    "Wall-Plaster-Black": "煤灰色灰泥",
+    "Wall-Plaster-White": "白色灰泥",
+    "Floor-Marble": "白色大理石",
+    "Floor-Paving-01": "灰色石板",
+    "Floor-Stone-01": "鹅卵石铺面",
+    "MI_dvizAP_Marble_01": "黑色纹理大理石",
+    "MI_dvizAP_Marble_05": "洞石",
+    "Stone-01": "石灰岩",
+    "Stone-02": "灰色砂岩",
+    "Stone-Decor": "浅色纹理石材",
+    "Stone-Wall-01": "斑点花岗岩",
+    "Bath-Tiles-01": "蓝绿色马赛克",
+    "Bath-Tiles-02": "棋盘格瓷砖",
+    "Bath-Tiles-03": "绿色釉面砖",
+    "Bath-Tiles": "鼠尾草绿马赛克",
+    "Ceramic-02": "白色陶瓷",
+    "Decor-Tiles-01": "灰褐色浮雕砖",
+    "Decor-Tiles-02": "炭灰色立体砖",
+    "Decor-Tiles-03": "黑色六边形马赛克",
+    "Floor-Tiles-01": "奶油色大理石砖",
+    "Floor-Tiles-02": "陶土砖",
+    "Floor-Tiles-03": "板岩灰瓷砖",
+    "Floor-Tiles-Stone": "浅粉色瓷砖",
+    "Floor-Tiles": "灰色大砖",
+    "Stone-Tiles-01": "灰色石材砖",
+    "MI_Water_SwimmingPool1": "泳池水",
+    "MI_dvizAP_Pool_Water": "浅色泳池水",
+    "Water-Sea": "海水",
+    "Floor-Wood-00": "淡色橡木板",
+    "Floor-Wood-01": "橡木板",
+    "Floor-Wood-02": "橡木方块拼花地板",
+    "Floor-Wood-03": "灰色橡木人字拼地板",
+    "Floor-Wood-04": "鸡翅木板",
+    "M_Oak_Ovrly_05_Mat_Inst": "浅色橡木拼花",
+    "M_Oak_Vrslls_05_Mat_Inst": "橡木凡尔赛拼花地板",
+    "MI_dvizAP_Wood_10": "樱桃木",
+    "MI_dvizAP_Wood_11": "浅色橡木",
+    "Wood-01": "灰色白蜡木",
+    "Wood-02": "枫木",
+    "Wood-03": "桦木",
+    "Wood-04": "灰色胡桃木",
+    "Wood-05": "胡桃木",
+    "Wood-06": "蜜色橡木",
+    "Wood-07": "原色橡木",
+    "Wood-08": "榆木",
+    "Wood-09": "乡村风橡木",
+    "Wood-10": "灰色浮木",
+    "Wood-11": "烟熏橡木",
+    "Metal-01": "铬金属",
+    "Metal-02": "抛光钢",
+    "Metal-Black-01": "炮铜灰金属",
+    "Metal-Black-02": "亮黑色",
+    "Metal-Bronce": "青铜",
+    "Metal-Brushed": "黑铬",
+    "Metal-Copper": "铜",
+    "Metal-Gold": "金色",
+    "Metal-White": "白色金属",
+    "Light-Warm": "暖光",
+    "Light-WarmWhite": "暖白光",
+    "MI_Vorhang_VAT": "窗帘布",
+    "MI_Feuerholz": "柴火",
+    "MI_AI_vol9_05_metal_iron_01": "炉具钢材"
+  }
+}

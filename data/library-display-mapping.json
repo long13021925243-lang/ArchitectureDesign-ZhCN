@@ -1,0 +1,342 @@
+[
+  {
+    "source": "Table",
+    "translation": "桌子",
+    "scope": "main category"
+  },
+  {
+    "source": "Chair",
+    "translation": "椅子",
+    "scope": "main category"
+  },
+  {
+    "source": "Sofa",
+    "translation": "沙发",
+    "scope": "main category"
+  },
+  {
+    "source": "Bed",
+    "translation": "床",
+    "scope": "main category"
+  },
+  {
+    "source": "Kitchen",
+    "translation": "厨房",
+    "scope": "main category"
+  },
+  {
+    "source": "Bath",
+    "translation": "卫浴",
+    "scope": "main category"
+  },
+  {
+    "source": "Electro",
+    "translation": "电器",
+    "scope": "main category"
+  },
+  {
+    "source": "Lamp",
+    "translation": "灯具",
+    "scope": "main category"
+  },
+  {
+    "source": "Others",
+    "translation": "其他",
+    "scope": "main category"
+  },
+  {
+    "source": "Deco",
+    "translation": "装饰",
+    "scope": "main category"
+  },
+  {
+    "source": "Plants",
+    "translation": "植物",
+    "scope": "main category"
+  },
+  {
+    "source": "Nature",
+    "translation": "自然",
+    "scope": "main category"
+  },
+  {
+    "source": "Pictures",
+    "translation": "挂画",
+    "scope": "main category"
+  },
+  {
+    "source": "Storage",
+    "translation": "收纳",
+    "scope": "main category"
+  },
+  {
+    "source": "Structures",
+    "translation": "建筑构件",
+    "scope": "main category"
+  },
+  {
+    "source": "Interactive",
+    "translation": "互动",
+    "scope": "main category"
+  },
+  {
+    "source": "Wood",
+    "translation": "木材",
+    "scope": "main category"
+  },
+  {
+    "source": "Wood Floors",
+    "translation": "木地板",
+    "scope": "main category"
+  },
+  {
+    "source": "Brick",
+    "translation": "砖材",
+    "scope": "main category"
+  },
+  {
+    "source": "Concrete & Asphalt",
+    "translation": "混凝土与沥青",
+    "scope": "main category"
+  },
+  {
+    "source": "Stone",
+    "translation": "石材",
+    "scope": "main category"
+  },
+  {
+    "source": "Tiles",
+    "translation": "瓷砖",
+    "scope": "main category"
+  },
+  {
+    "source": "Metal",
+    "translation": "金属",
+    "scope": "main category"
+  },
+  {
+    "source": "Plaster & Paint",
+    "translation": "灰泥与涂料",
+    "scope": "main category"
+  },
+  {
+    "source": "Fabric",
+    "translation": "织物",
+    "scope": "main category"
+  },
+  {
+    "source": "Glass & Mirror",
+    "translation": "玻璃与镜面",
+    "scope": "main category"
+  },
+  {
+    "source": "Water",
+    "translation": "水面",
+    "scope": "main category"
+  },
+  {
+    "source": "Light & Special",
+    "translation": "发光与特殊",
+    "scope": "main category"
+  },
+  {
+    "source": "Patterns",
+    "translation": "图案",
+    "scope": "main category"
+  },
+  {
+    "source": "My Materials",
+    "translation": "我的材质",
+    "scope": "main category"
+  },
+  {
+    "source": "Decor",
+    "translation": "装饰",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Fits",
+    "translation": "卫浴配件",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Sink+Bathtub",
+    "translation": "洗手盆与浴缸",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Toilet",
+    "translation": "马桶",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Armchair",
+    "translation": "扶手椅",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Shelve-Deco",
+    "translation": "架上摆件",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Vase",
+    "translation": "花瓶",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Kitchen-Cabinet",
+    "translation": "橱柜",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Kitchen-Deco",
+    "translation": "厨具摆件",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Kitchen-Electro",
+    "translation": "厨房电器",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Ceiling-Lamp",
+    "translation": "吸顶灯",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Hanging-Lamp",
+    "translation": "吊灯",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Standing-Lamp",
+    "translation": "落地灯",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Table-Lamp",
+    "translation": "台灯",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Wall-Lamp",
+    "translation": "壁灯",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Carpet",
+    "translation": "地毯",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Mirror",
+    "translation": "镜子",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Plant-Pot",
+    "translation": "花盆",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Trees",
+    "translation": "树木",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Bushes",
+    "translation": "灌木",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Plants & Flowers",
+    "translation": "花草",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Grass",
+    "translation": "草地",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Water Plants",
+    "translation": "水生植物",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Stones",
+    "translation": "石块",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Dead Wood",
+    "translation": "枯木",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Pillows",
+    "translation": "靠枕",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Cabinet",
+    "translation": "柜子",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Shelves",
+    "translation": "搁架",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Wall-Panel",
+    "translation": "墙板",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Buildings",
+    "translation": "建筑",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Window-Doors",
+    "translation": "门窗",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Wood & Farm",
+    "translation": "木作与农场",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Crops",
+    "translation": "农作物",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Coffee-Table",
+    "translation": "茶几",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Dining-Table",
+    "translation": "餐桌",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Round-Table",
+    "translation": "圆桌",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Lights",
+    "translation": "灯光",
+    "scope": "subcategory"
+  },
+  {
+    "source": "Ivy",
+    "translation": "常春藤",
+    "scope": "subcategory"
+  }
+]

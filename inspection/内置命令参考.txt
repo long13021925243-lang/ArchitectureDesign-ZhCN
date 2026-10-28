@@ -1,0 +1,30 @@
+游戏内置巡检入口（Build 26257309）
+
+本包默认capture-cases.json保持已验证的命令和顺序。案例参数中的英文是机器标识，不能改成中文：
+-panelbild -katalog=Table     家具库与测试沙发
+-panelbild -bibliothek        材质库
+-allepanels                  墙/窗/门/楼梯/地板/屋顶/道路/栏杆，每类最多一个
+-panelbild -tab=0 -werkzeug=door
+-panelbild -tab=0 -werkzeug=hole
+-panelbild -tab=1 -werkzeug=rail
+-panelbild -tab=1 -werkzeug=landscape
+-panelbild -sonne             天气
+-rundgang="本目录脚本.txt"   按顺序执行输入与截图
+
+不要同时运行多个游戏实例；不要混用多个会安排定时退出的测试入口。
+panelbild与allepanels会操作测试场景；capture_cases.ps1强制使用独立-userdir。
+截图由游戏写入巡检目录 Saved\Screenshots，然后复制到当次输出目录。
+
+rundgang已使用的语法：
+warte 2                     等待2秒
+bild name                   截图rg_name.png
+klick 300 200               点击窗口客户区坐标
+klick 300 200 rechts        右键
+maus 300 200                移动鼠标
+rad 300 200 -3              指定位置滚轮
+taste Escape               发送按键，名称保持英文
+ziehen 300 200 500 300      拖动
+ende                       结束测试并退出游戏
+# 开头行为注释。
+
+输入坐标为像素，默认菜单脚本对应1920×1080。截图成功不等于画面正确，需查看页面内容、字体、图标和预览结果。

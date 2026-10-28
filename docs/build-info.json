@@ -1,0 +1,28 @@
+{
+  "revision": "R3.1 公开发布版",
+  "gameBuildId": "26257309",
+  "originalExeSha256": "c0013264d88ffae8b1c0c974528184c86c570ea60bfb4d23bddd679f3c4d48c3",
+  "patchedExeSha256": "2b232cd4dbdbd9abe87495a115d8d480d16c61e6348d0aebd72702c6044fd5e3",
+  "installer": {
+    "file": "ArchitectureDesign_ZhCN_Setup.exe",
+    "bytes": 704000,
+    "sha256": "72e04371623f157755c6398f3e2a800ffcf4f5dc20c2462c2bc08e49f2a41033"
+  },
+  "payload": {
+    "file": "payload.zip",
+    "bytes": 19454,
+    "sha256": "a7a3da19b428ec45cb34035df842b204fd9d66e5258f4daa390f228e04d04125",
+    "entries": [
+      "ArchitectureDesign/Content/Data/MaterialBibliothek.json",
+      "ArchitectureDesign/Content/Data/PatchNotes.json",
+      "ArchitectureDesign/Content/Paks/zzz_ArchitectureDesign_ZhCN_P.pak"
+    ]
+  },
+  "pakSha256": "7a616093df13a2d5be31c42b1618df0d83631575746b867553fdee575ae30d45",
+  "manifestSha256": "333f4d32ff331eeaeba8ad767f0a809d6071d681d1e12bbf0df13f641a532394",
+  "installerSourceSha256": "ebdac7ae8fd55431192aa6810c5d4238d4e80394ba7c17f570cc20b6225eaaba",
+  "repakVersion": "repak_cli 0.2.3",
+  "pakRoundtripVerified": true,
+  "bundledSystemFontFiles": 0,
+  "notes": "The audited canonical PAK avoids repak parallel ordering differences. Payload ZIP has fixed entry order and timestamps. Legacy csc output is not promised to be byte-for-byte deterministic."
+}

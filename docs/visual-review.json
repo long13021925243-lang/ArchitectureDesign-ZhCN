@@ -1,0 +1,561 @@
+{
+  "buildId": "26277848",
+  "gameExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+  "captureBatch": "20261029-091947-3ab3a31c",
+  "reviewedImages": 21,
+  "status": "PASS_WITH_DOCUMENTED_VISUAL_LIMITS",
+  "scope": "Visible text in the 21 current R4 screenshots. Library tooltips occlude parts of two category labels. Hidden options, VR and all possible runtime branches are not claimed covered.",
+  "groups": [
+    {
+      "status": "PASS",
+      "gameBuildId": "26277848",
+      "gameExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+      "captureRun": "20261029-091947-3ab3a31c",
+      "case": "building_properties",
+      "captureStarted": "2026-10-29T09:20:33.9438112+08:00",
+      "captureExitCode": 0,
+      "captureArguments": "-allepanels",
+      "reviewMethod": "逐张调用 view_image 直接查看本次 R4 的八张完整截图；未引用 R3 图像，也未仅凭 OCR 推断。",
+      "reviewedImageCount": 8,
+      "imageDimensions": [
+        1920,
+        1080
+      ],
+      "unresolvedEnglishUICaptions": [],
+      "missingGlyphsObserved": false,
+      "textClippingOrOverlapObserved": false,
+      "images": [
+        {
+          "file": "building_properties/p_wand.png",
+          "sha256": "ef4cf648b622b0a00f152aa66301886465c452d9cf7479cb4846e49380666c8b",
+          "panel": "墙体 #20",
+          "judgment": "PASS",
+          "observedChinese": [
+            "长度",
+            "厚度",
+            "居中",
+            "内侧",
+            "外侧",
+            "踢脚线与装饰线",
+            "踢脚线材质",
+            "斜天花板"
+          ],
+          "observation": "左右属性列、装饰选项、复制粘贴和说明均显示中文；此前易遗漏的内侧/外侧正常，说明自然换行，没有可见缺字或截断。",
+          "boundary": "仅验证当前墙体及当前展开的装饰/材质状态，未操作所有装饰类型。"
+        },
+        {
+          "file": "building_properties/p_fenster.png",
+          "sha256": "ee2b1a9922e7208deacddf89a5d291b81a102050171880ffc2fb6839cbcf3eb0",
+          "panel": "窗 #26",
+          "judgment": "PASS",
+          "observedChinese": [
+            "固定",
+            "平开",
+            "推拉式",
+            "折叠式",
+            "宽度",
+            "窗台",
+            "内侧窗框",
+            "外侧窗框",
+            "玻璃"
+          ],
+          "observation": "窗类型使用推拉式/折叠式，尺寸与窗框玻璃属性均中文，按钮和说明文字完整。",
+          "boundary": "仅验证当前山墙窗属性视图；其它窗类型切换后的新增控件未在此图展开。"
+        },
+        {
+          "file": "building_properties/p_tuer.png",
+          "sha256": "f47d3013acdf7b07ddc299222ff923d457b227c0ca4694e9b849ea6a206797be",
+          "panel": "门 #53",
+          "judgment": "PASS",
+          "observedChinese": [
+            "室内门",
+            "室外门",
+            "推拉门",
+            "车库门",
+            "空置（仅框架）",
+            "双开门",
+            "玻璃面板",
+            "门板",
+            "把手"
+          ],
+          "observation": "门类型、宽高与侧亮窗、开关和材质分区文字均为中文，没有可见英文标签、缺字或布局溢出。",
+          "boundary": "仅验证选中室内门时显示的属性；没有逐一切换车库门等其它类型。"
+        },
+        {
+          "file": "building_properties/p_treppe.png",
+          "sha256": "3abd46d171eb5032bfa76e6903e0f73c0c90c09601c86007b63f2e6ddd093521",
+          "panel": "楼梯 #57",
+          "judgment": "PASS",
+          "observedChinese": [
+            "宽度",
+            "踏步",
+            "首段",
+            "直跑",
+            "休息平台：关",
+            "主体",
+            "开放踢面：关",
+            "天花板开洞：开"
+          ],
+          "observation": "几何、踏步与主体材质、开关以及操作说明均中文。L/U 是形状标识，Ctrl 是按键名，cm/m 是单位，属于保留记号。",
+          "boundary": "仅验证当前 L 形楼梯与已显示开关状态；没有操作所有楼梯形状和平台组合。"
+        },
+        {
+          "file": "building_properties/p_boden.png",
+          "sha256": "4b4b67d07e0cad7d9e59e5fcf12f27bee7593baa5b7864350fcd862aef25556c",
+          "panel": "楼板",
+          "judgment": "PASS",
+          "observedChinese": [
+            "地板高度",
+            "地板",
+            "复制",
+            "粘贴",
+            "亮度",
+            "纹理缩放",
+            "旋转",
+            "偏移",
+            "原始地板"
+          ],
+          "observation": "全部可见楼板属性和材质调节文字均中文，数值和单位排版正常。",
+          "boundary": "仅验证当前楼板高度/地板材质状态，未覆盖颜色选择器或其它弹出层。"
+        },
+        {
+          "file": "building_properties/p_dach.png",
+          "sha256": "6cced73866d173c782fdf5f1ca10651d03a590aac165aa768b2f3126d0fae3dc",
+          "panel": "屋顶 #41",
+          "judgment": "PASS",
+          "observedChinese": [
+            "瓦片",
+            "鱼鳞瓦",
+            "西班牙瓦",
+            "金属立缝",
+            "茅草",
+            "分排铺设",
+            "出檐",
+            "屋顶开口",
+            "屋面材料",
+            "底面"
+          ],
+          "observation": "屋顶材料与新增天窗相关控件完整中文；分排铺设用词正常，移除天窗计数文字可见且未截断。",
+          "boundary": "仅验证当前屋顶形状及现有一扇天窗的属性，不将图标悬停提示视为已验证。"
+        },
+        {
+          "file": "building_properties/p_weg.png",
+          "sha256": "c45fecb9d5798b3ec35ec5bff48a80c3d7b088bdac229a5ec37bc5e4bb4ac1d2",
+          "panel": "路径 / 露台 #52",
+          "judgment": "PASS",
+          "observedChinese": [
+            "名称（如：露台）",
+            "宽度",
+            "长度",
+            "高度",
+            "上移 / 下移",
+            "表面",
+            "侧面",
+            "删除"
+          ],
+          "observation": "标题、名称占位提示、属性及绘制说明为中文；Ctrl 保留为物理按键名。卡片没有可见缺字或截断。",
+          "boundary": "仅验证当前选中路径/露台的属性，未验证用户输入长名称时的布局。"
+        },
+        {
+          "file": "building_properties/p_gelaender.png",
+          "sha256": "0a202f9066f8bcde0c7a607d056e643d898ebb9c5b219f0c28b2a52ef20c71ed",
+          "panel": "栏杆 #58",
+          "judgment": "PASS",
+          "observedChinese": [
+            "高度",
+            "栏杆",
+            "围栏：木质",
+            "围栏：实体",
+            "圆形",
+            "方形",
+            "玻璃：开",
+            "材质",
+            "纹理缩放",
+            "旋转"
+          ],
+          "observation": "栏杆/围栏样式、圆形方形、玻璃开启状态以及材质选项均中文；所有按钮标签完整可读。",
+          "boundary": "仅验证当前圆形、玻璃开启状态，未操作围栏类型的所有分支。"
+        }
+      ],
+      "preservedNotation": [
+        "TAB/Ctrl 按键名",
+        "L/U 楼梯形状",
+        "A/B 墙角标识",
+        "m/cm/%/角度单位及数值",
+        "对象编号"
+      ],
+      "limits": [
+        "结论覆盖当前八张 1920×1080 截图中的可见控件；不能据此保证隐藏控件、弹窗、悬停提示和所有交互分支均无遗漏。",
+        "检查为真实 PNG 视觉复核，未重新启动游戏或修改任何游戏、补丁代码。"
+      ]
+    },
+    {
+      "status": "PASS",
+      "target_game_sha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+      "capture_run": "20261029-091947-3ab3a31c",
+      "reviewed_images": 5,
+      "review_method": "Direct visual inspection of all five current R4 PNG files using view_image. Actual file SHA256 and capture metadata were cross-checked. No earlier R3 or other-run screenshots were used.",
+      "images": [
+        {
+          "case": "door_placement",
+          "file": "door_placement/panel.png",
+          "sha256": "c4edfa943abb9a2bd3c03f6336d541f4992478cd0d463f3ba70bbac667f3f796",
+          "bytes": 240453,
+          "size": [
+            1920,
+            1080
+          ],
+          "modified_local": "2026-10-29T09:21:40.038576+08:00",
+          "capture_started": "2026-10-29T09:21:22.0102486+08:00",
+          "capture_game_sha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+          "metadata_matches_actual_file": true,
+          "status": "PASS",
+          "directly_viewed_with": "tools.view_image",
+          "chinese_visible": true,
+          "missing_glyphs_observed": false,
+          "truncation_or_overlap_observed": false,
+          "untranslated_ordinary_ui_caption_observed": false,
+          "observations": [
+            "放置门、室内门、室外门、推拉门、空门洞、宽度、高度及放置提示均为中文。",
+            "四个门类型按钮及数值区文字完整，未见缺字、裁切或重叠。"
+          ],
+          "issues": []
+        },
+        {
+          "case": "opening",
+          "file": "opening/panel.png",
+          "sha256": "d103d1dbc87babae565b75635a26af3524a68bdbda7dacd6f42da53daea014fd",
+          "bytes": 240519,
+          "size": [
+            1920,
+            1080
+          ],
+          "modified_local": "2026-10-29T09:22:01.960944+08:00",
+          "capture_started": "2026-10-29T09:21:43.7720732+08:00",
+          "capture_game_sha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+          "metadata_matches_actual_file": true,
+          "status": "PASS",
+          "directly_viewed_with": "tools.view_image",
+          "chinese_visible": true,
+          "missing_glyphs_observed": false,
+          "truncation_or_overlap_observed": false,
+          "untranslated_ordinary_ui_caption_observed": false,
+          "observations": [
+            "洞口标题、拖动创建、添加节点、调整形状和删除说明均为中文。",
+            "多行说明均完整显示；Ctrl、Del 是保留的实际按键名称。"
+          ],
+          "issues": []
+        },
+        {
+          "case": "railing",
+          "file": "railing/panel.png",
+          "sha256": "6198eaee24627a50fe6e8f73bed26d0eb804dff0ddf1d7e2badb0f5c2cb0dd31",
+          "bytes": 4512718,
+          "size": [
+            1920,
+            1080
+          ],
+          "modified_local": "2026-10-29T09:22:23.741225+08:00",
+          "capture_started": "2026-10-29T09:22:05.5031620+08:00",
+          "capture_game_sha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+          "metadata_matches_actual_file": true,
+          "status": "PASS",
+          "directly_viewed_with": "tools.view_image",
+          "chinese_visible": true,
+          "missing_glyphs_observed": false,
+          "truncation_or_overlap_observed": false,
+          "untranslated_ordinary_ui_caption_observed": false,
+          "observations": [
+            "绘制栏杆、栏杆、围栏：木质/实体、圆形/方形、玻璃：关及两行绘制说明均为中文。",
+            "按钮和说明排版正常，未见截断、缺字或未译英文界面标签。"
+          ],
+          "issues": []
+        },
+        {
+          "case": "terrain",
+          "file": "terrain/panel.png",
+          "sha256": "672476746546ddfa22a4fc5c740874a120f8f06020710386210c7259d63f57d3",
+          "bytes": 4335322,
+          "size": [
+            1920,
+            1080
+          ],
+          "modified_local": "2026-10-29T09:22:45.444285+08:00",
+          "capture_started": "2026-10-29T09:22:27.2404314+08:00",
+          "capture_game_sha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+          "metadata_matches_actual_file": true,
+          "status": "PASS",
+          "directly_viewed_with": "tools.view_image",
+          "chinese_visible": true,
+          "missing_glyphs_observed": false,
+          "truncation_or_overlap_observed": false,
+          "untranslated_ordinary_ui_caption_observed": false,
+          "observations": [
+            "地形、抬高、笔刷大小、强度、地形材质、植被、涂绘、擦除、风力和昆虫均为中文。",
+            "八种地形材质及八种植被缩略图标签完整显示；Esc 保留为实际按键名。"
+          ],
+          "issues": []
+        },
+        {
+          "case": "weather",
+          "file": "weather/panel.png",
+          "sha256": "ae110792a07e927aeaacf25e4822b27802da28a062ddc82d15b1cbc947d39675",
+          "bytes": 3851084,
+          "size": [
+            1920,
+            1080
+          ],
+          "modified_local": "2026-10-29T09:23:07.211631+08:00",
+          "capture_started": "2026-10-29T09:22:48.9817570+08:00",
+          "capture_game_sha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+          "metadata_matches_actual_file": true,
+          "status": "PASS",
+          "directly_viewed_with": "tools.view_image",
+          "chinese_visible": true,
+          "missing_glyphs_observed": false,
+          "truncation_or_overlap_observed": false,
+          "untranslated_ordinary_ui_caption_observed": false,
+          "observations": [
+            "阳光与天气、太阳/天气分组、时间、方向、昼夜循环、纬度、季节、阳光射线、雾霭、雾起点、雾高度、云层、雨、雪及关闭/默认/月份值均为中文。",
+            "同时可见物体属性的尺寸、变换、材质及灰褐色布料/亮黑色中文；未见缺字或裁切。",
+            "Sofa-05 保留为物体型号标识，52°N 中 N 为纬度方位单位。"
+          ],
+          "issues": []
+        }
+      ],
+      "issues": [],
+      "limitations": [
+        "This review covers only the visible states in these five screenshots; hidden options, hover tooltips, non-default weather/terrain/door states and VR UI were not exercised by this reviewer.",
+        "Physical key labels (TAB/Ctrl/Del/Esc), units and the Sofa-05 model identifier are intentionally retained and are not ordinary untranslated UI captions.",
+        "No game launch or game/code changes were performed by this reviewer."
+      ]
+    },
+    {
+      "status": "PASS_WITH_DOCUMENTED_VISUAL_LIMITS",
+      "build_id": "26277848",
+      "game_sha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+      "game_sha256_independently_read": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+      "reviewed_image_count": 5,
+      "capture_batch": "20261029-091947-3ab3a31c",
+      "images": [
+        {
+          "file": "furniture/panel.png",
+          "sha256": "5cf4a1706fbd4d199ce26166c2e40a80bcd0732c4561a85870a7568e042b0cd3",
+          "width": 1920,
+          "height": 1080,
+          "capture_exit_code": 0,
+          "status": "PASS_WITH_CAPTURE_LIMITS",
+          "review_method": "Entire image genuinely inspected using view_image; no OCR-only conclusion.",
+          "observed_chinese_text": [
+            "桌子",
+            "椅子",
+            "沙发",
+            "床",
+            "厨房",
+            "卫浴",
+            "电器",
+            "灯具",
+            "其他",
+            "装饰",
+            "自然",
+            "挂画",
+            "收纳",
+            "建筑构件",
+            "互动",
+            "构筑物",
+            "植物（额外库）",
+            "我的组合",
+            "我的模型",
+            "变换",
+            "灰褐色布料",
+            "亮黑色"
+          ],
+          "untranslated_ordinary_UI_text_observed": [],
+          "missing_glyphs_observed": false,
+          "text_clipping_observed": false,
+          "preserved_latin_notation": [
+            "Sofa-05 model identifier",
+            "TAB / X / Y key notation",
+            "m / degrees / numeric page and object IDs"
+          ],
+          "limits": [
+            "核心家具分类中的植物标签被临时悬停提示部分遮挡，未据此图声称该标签完整可读。",
+            "只检查当前分类栏和桌子分类的这一页缩略图，未遍历所有模型与悬停名称。"
+          ]
+        },
+        {
+          "file": "materials/panel.png",
+          "sha256": "5ce3dca4bfcc6335d9f5086c38d388125572a6c1e7e94556a806550ceb35d732",
+          "width": 1920,
+          "height": 1080,
+          "capture_exit_code": 0,
+          "status": "PASS_WITH_CAPTURE_LIMITS",
+          "review_method": "Entire image genuinely inspected using view_image; no OCR-only conclusion.",
+          "observed_chinese_text": [
+            "木材",
+            "木地板",
+            "砖材",
+            "混凝土与沥青",
+            "石材",
+            "瓷砖",
+            "金属",
+            "灰泥与涂料（悬停提示中完整可读）",
+            "玻璃与镜面",
+            "自然",
+            "水面",
+            "发光与特殊",
+            "图案",
+            "我的材质",
+            "直接应用材质",
+            "用于建筑构件",
+            "变换",
+            "灰褐色布料",
+            "亮黑色"
+          ],
+          "untranslated_ordinary_UI_text_observed": [],
+          "missing_glyphs_observed": false,
+          "text_clipping_observed": false,
+          "preserved_latin_notation": [
+            "Sofa-05 model identifier",
+            "TAB / X / Y key notation",
+            "m / degrees / numeric page and object IDs"
+          ],
+          "limits": [
+            "布料分类标签受灰泥与涂料的临时悬停提示遮挡，未据此图声称所有15项均完整可读。",
+            "只检查当前材质库页面和所选对象的两个材质名称，未遍历全部材质及全部悬停提示。"
+          ]
+        },
+        {
+          "file": "menu/rg_main.png",
+          "sha256": "5531ccc90149a4bcf29b1a53e7513879d7cbd71bd1255d786cb84fdde12c27cf",
+          "width": 1920,
+          "height": 1080,
+          "capture_exit_code": 0,
+          "status": "PASS",
+          "review_method": "Entire image genuinely inspected using view_image; no OCR-only conclusion.",
+          "observed_chinese_text": [
+            "开始游戏",
+            "载入",
+            "社区",
+            "操作",
+            "教程",
+            "设置",
+            "退出",
+            "更新日志",
+            "制作人员"
+          ],
+          "untranslated_ordinary_UI_text_observed": [],
+          "missing_glyphs_observed": false,
+          "text_clipping_observed": false,
+          "preserved_latin_notation": [
+            "Architecture & Design game brand"
+          ],
+          "limits": [
+            "这里只验证当前主菜单，未进入载入列表、教程或更新日志的每个分支。"
+          ]
+        },
+        {
+          "file": "menu/rg_environment.png",
+          "sha256": "52551438e498bb270708f71358cf891df4c774e8a4ef8ba715a7ae9c0640d903",
+          "width": 1920,
+          "height": 1080,
+          "capture_exit_code": 0,
+          "status": "PASS",
+          "review_method": "Entire image genuinely inspected using view_image; no OCR-only conclusion.",
+          "observed_chinese_text": [
+            "返回",
+            "选择环境",
+            "天空岛",
+            "街景",
+            "海滩",
+            "空白"
+          ],
+          "untranslated_ordinary_UI_text_observed": [],
+          "missing_glyphs_observed": false,
+          "text_clipping_observed": false,
+          "preserved_latin_notation": [],
+          "limits": [
+            "只验证当前环境选择页面的四张卡片，未验证全部生成后场景。"
+          ]
+        },
+        {
+          "file": "menu/rg_plot_size.png",
+          "sha256": "d073fcec7c5880dfeed42c6ad4ffc487d863026f3e2fa89eb0aaf19d8f7ca0a7",
+          "width": 1920,
+          "height": 1080,
+          "capture_exit_code": 0,
+          "status": "PASS",
+          "review_method": "Entire image genuinely inspected using view_image; no OCR-only conclusion.",
+          "observed_chinese_text": [
+            "梦幻花园",
+            "地块需要多大？岛屿将按这些尺寸生成。",
+            "宽度",
+            "长度",
+            "创建岛屿",
+            "返回"
+          ],
+          "untranslated_ordinary_UI_text_observed": [],
+          "missing_glyphs_observed": false,
+          "text_clipping_observed": false,
+          "preserved_latin_notation": [
+            "m unit",
+            "50 numeric values"
+          ],
+          "limits": [
+            "只验证默认50米宽长的页面状态，未遍历滑块全部数值与各环境分支。"
+          ]
+        }
+      ],
+      "summary": "主菜单载入、环境空白、地块宽度/长度、可见家具/材质分类、物体变换及灰褐色布料/亮黑色均显示中文；未见可见标签缺字或截断。",
+      "limits": [
+        "只验证这5张当前状态的截图，不代表所有分支、子分类、模型、材质名称均已穷举。",
+        "两张库截图中存在正常临时悬停提示遮挡，核心植物与布料分类标签没有完整视觉验收。",
+        "Sofa-05是保留的模型资源编号；品牌、按键和技术单位按既定范围保留。"
+      ],
+      "game_or_code_modified_by_reviewer": false
+    },
+    {
+      "case": "audio_exit_manual",
+      "gameExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+      "images": [
+        {
+          "file": "audio_exit_manual/rg_options_project.png",
+          "sha256": "55d2e0dbfd67f3f2a162fd2a846ed6b221693eb36983dd83bd167c3352f5c627",
+          "status": "PASS",
+          "observations": [
+            "保存游戏、快速保存、载入、更换环境、设置视图、公制/英制均为中文。",
+            "可见行标题、说明及按钮完整，无缺字、截断或重叠；FSR 保留为技术名。"
+          ],
+          "missingGlyphsObserved": false,
+          "textClippingOrOverlapObserved": false,
+          "reviewMethod": "Direct view_image inspection of the current R4 screenshot."
+        },
+        {
+          "file": "audio_exit_manual/rg_audio.png",
+          "sha256": "d6e2592b2a44dd06bcf6fc7c7a00af5b2d3a95f3cca0e0f273c52c31444cf79f",
+          "status": "PASS",
+          "observations": [
+            "主音量、音乐/背景音乐、环境音、音效、瀑布、池塘与河流及说明均为中文。",
+            "百分比、滑块和控制按钮排版完整；FSR 为技术名。"
+          ],
+          "missingGlyphsObserved": false,
+          "textClippingOrOverlapObserved": false,
+          "reviewMethod": "Direct view_image inspection of the current R4 screenshot."
+        },
+        {
+          "file": "audio_exit_manual/rg_save_exit.png",
+          "sha256": "9d3f35bf89b4b5dc54e21149ba106de26a143bdbeed12c57f4fec309a96190a6",
+          "status": "PASS",
+          "observations": [
+            "退出前保存？及保存、退出、取消三按钮均显示中文且完整。",
+            "未将按钮点击后的保存/退出分支计入本图视觉覆盖。"
+          ],
+          "missingGlyphsObserved": false,
+          "textClippingOrOverlapObserved": false,
+          "reviewMethod": "Direct view_image inspection of the current R4 screenshot."
+        }
+      ],
+      "scope": "Current visible project, sound and save-before-exit panels only."
+    }
+  ]
+}

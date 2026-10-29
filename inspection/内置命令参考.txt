@@ -1,4 +1,4 @@
-游戏内置巡检入口（Build 26257309）
+﻿游戏内置巡检入口（Build 26277848）
 
 本包默认capture-cases.json保持已验证的命令和顺序。案例参数中的英文是机器标识，不能改成中文：
 -panelbild -katalog=Table     家具库与测试沙发

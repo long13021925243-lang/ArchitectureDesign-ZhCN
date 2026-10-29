@@ -1,8 +1,6 @@
 # Architecture & Design 简体中文补丁
 
-适用于 Steam 游戏 **Architecture & Design / ArchitectureDesign**，当前支持 **Build 26257309**。这是非官方汉化项目。
-
-> 2026-10-28 检查时 Steam 已出现 **Build 26271635**。本次 Release **不适用于 26271635**，安装器会拒绝覆盖。请核对游戏 Build 后下载。
+适用于 Steam 游戏 **Architecture & Design / ArchitectureDesign**，当前 **R4 支持 Build 26277848**。这是非官方汉化项目。
 
 **[下载最新一键安装器](https://github.com/long13021925243-lang/ArchitectureDesign-ZhCN/releases/latest/download/ArchitectureDesign_ZhCN_Setup.exe)** · **[查看所有版本](https://github.com/long13021925243-lang/ArchitectureDesign-ZhCN/releases)**
 
@@ -14,7 +12,7 @@
 
 安装器是单文件，使用时无需 Python 或命令行。需要 64 位 Windows、.NET Framework 4.x，以及 Windows 已安装的微软雅黑常规和粗体字体（`msyh.ttc`、`msyhbd.ttc`）。缺少字体时会在替换游戏文件前停止，并提示安装简体中文补充字体。仅在提示写入权限不足时，以管理员身份运行。
 
-R3.1 公开版在安装时从当前电脑的 Windows 字体目录复制字体。下载文件和仓库均不包含 Windows 字体，也不包含完整游戏程序。
+安装时从当前电脑的 Windows 字体目录复制字体。下载文件和仓库均不包含 Windows 字体，也不包含完整游戏程序。
 
 ## 汉化范围
 
@@ -24,15 +22,21 @@ R3.1 公开版在安装时从当前电脑的 Windows 字体目录复制字体。
 
 分类和材质通过专用显示映射翻译，保留内部资源 ID。快捷键、技术名、游戏品牌和模型编号（例如 `Sofa-05`）保留。未知名称保持原文；与内置词条同名的自定义名称可能匹配显示翻译。
 
-R3 的 11 张反馈截图共 59 处目标文字已补齐，并对 21 张实机画面进行 OCR 与人工复核。R3.1 沿用这些翻译，主要调整公开发布所需的字体获取和打包方式。验证范围与未覆盖分支见 [验证说明](docs/VERIFICATION.md)。
+R4 重新定位了旧版全部译文和显示调用，并新增照片保存提示、“今天／昨天／最新”、中文日期格式及专用月份表。验证范围与未覆盖分支见 [验证说明](docs/VERIFICATION.md)。
 
 ## 备份、校验和恢复
 
-安装器提供“校验汉化”和“恢复备份”。最初安装前的文件保存在游戏根目录的 `ArchitectureDesign_ZhCN_Backup/26257309/`，升级不会覆盖它。恢复会回到这份最初备份；如果安装前已留有更早补丁资源，恢复不代表清除所有历史汉化。
+安装器提供“校验汉化”和“恢复备份”。本版最初安装前的文件保存在游戏根目录的 `ArchitectureDesign_ZhCN_Backup/26277848/`。旧 Build 的备份目录会保留。恢复会回到对应 Build 的最初备份；如果安装前已留有更早补丁资源，恢复不代表清除所有历史汉化。
 
 补丁不修改玩家建筑存档。请保留完整备份目录。安装失败时会尝试回滚本次替换；安装日志为游戏根目录的 `ArchitectureDesign_ZhCN_Installer.log`。
 
 安装器检查完整主程序 SHA-256。Steam 验证还原了同一受支持版本时可以重装；游戏更新为未知版本后，需要重新适配。不要强行跳过校验或手动套用旧偏移。
+
+| 游戏 Build | 补丁 |
+| --- | --- |
+| 26277848 | 当前 R4 / v4.0.0 |
+| 26257309 | 历史 R3.1 / v3.1.0 |
+| 26271635 | 未发布适配版 |
 
 ## 从源码构建
 

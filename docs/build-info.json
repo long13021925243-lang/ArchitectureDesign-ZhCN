@@ -1,12 +1,12 @@
 {
-  "revision": "R3.1 公开发布版",
-  "gameBuildId": "26257309",
-  "originalExeSha256": "c0013264d88ffae8b1c0c974528184c86c570ea60bfb4d23bddd679f3c4d48c3",
-  "patchedExeSha256": "2b232cd4dbdbd9abe87495a115d8d480d16c61e6348d0aebd72702c6044fd5e3",
+  "revision": "R4 新版本适配",
+  "gameBuildId": "26277848",
+  "originalExeSha256": "af632b66230f39eb3520aba3e3a7f836c7668a496ab4d6605d26600908e72ab8",
+  "patchedExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
   "installer": {
     "file": "ArchitectureDesign_ZhCN_Setup.exe",
-    "bytes": 704000,
-    "sha256": "72e04371623f157755c6398f3e2a800ffcf4f5dc20c2462c2bc08e49f2a41033"
+    "bytes": 703488,
+    "sha256": "b220c83b6492b0aca4bf89af3ab22edde338093027d42c96039bde331c395754"
   },
   "payload": {
     "file": "payload.zip",
@@ -19,7 +19,7 @@
     ]
   },
   "pakSha256": "7a616093df13a2d5be31c42b1618df0d83631575746b867553fdee575ae30d45",
-  "manifestSha256": "333f4d32ff331eeaeba8ad767f0a809d6071d681d1e12bbf0df13f641a532394",
+  "manifestSha256": "1fae5983773c2d27bc6452295bc020c17976858b34d19660916911ecfe56f3ef",
   "installerSourceSha256": "ebdac7ae8fd55431192aa6810c5d4238d4e80394ba7c17f570cc20b6225eaaba",
   "repakVersion": "repak_cli 0.2.3",
   "pakRoundtripVerified": true,

@@ -1,13 +1,13 @@
 {
   "status": "PASS",
-  "supportedBuildId": "26257309",
-  "manifestSha256": "333f4d32ff331eeaeba8ad767f0a809d6071d681d1e12bbf0df13f641a532394",
-  "installerSha256": "72e04371623f157755c6398f3e2a800ffcf4f5dc20c2462c2bc08e49f2a41033",
-  "patchedExeSha256": "2b232cd4dbdbd9abe87495a115d8d480d16c61e6348d0aebd72702c6044fd5e3",
-  "patchCount": 2432,
-  "previousProfileCount": 3,
+  "supportedBuildId": "26277848",
+  "manifestSha256": "1fae5983773c2d27bc6452295bc020c17976858b34d19660916911ecfe56f3ef",
+  "installerSha256": "b220c83b6492b0aca4bf89af3ab22edde338093027d42c96039bde331c395754",
+  "patchedExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+  "patchCount": 2451,
+  "previousProfileCount": 0,
   "readableUIPointerCount": 659,
-  "readableUILabelTableCount": 56,
+  "readableUILabelTableCount": 68,
   "zipEntryCount": 3,
   "zipSha256": "a7a3da19b428ec45cb34035df842b204fd9d66e5258f4daa390f228e04d04125",
   "pakEntryCount": 2,
@@ -40,13 +40,18 @@
     },
     {
       "file": "data/manifest.json",
-      "bytes": 651133,
-      "sha256": "333f4d32ff331eeaeba8ad767f0a809d6071d681d1e12bbf0df13f641a532394"
+      "bytes": 650634,
+      "sha256": "1fae5983773c2d27bc6452295bc020c17976858b34d19660916911ecfe56f3ef"
     },
     {
       "file": "data/material-display-mapping.json",
       "bytes": 33102,
       "sha256": "e848aae5e898905dd4c63f3b6d695a2600f8f9839f94fae11707983859699520"
+    },
+    {
+      "file": "data/new-ui-translations.json",
+      "bytes": 3865,
+      "sha256": "84237d6cf5f1fb413fd5cbb0af7c7633b48f558cb0c8323b7fa65e4ef646e515"
     },
     {
       "file": "data/payload/zzz_ArchitectureDesign_ZhCN_P.pak",
@@ -55,18 +60,18 @@
     },
     {
       "file": "data/translations.json",
-      "bytes": 283214,
-      "sha256": "fc5669de0f79ac9c9815e44262f1af7890f82a35143e94d413ad7a20c412bff6"
+      "bytes": 229669,
+      "sha256": "bb72de37e62d9d87e0aa313e25eb4ceae70c25f7a482c78aa07d21fdf346714f"
     },
     {
       "file": "data/ui-pointers.json",
       "bytes": 215470,
-      "sha256": "f4c32c3ad41cf8b1d07afd0f755d9f7cede984e066cc20f27cd14e5e0000aefe"
+      "sha256": "a30f0bbcf1a828163b58f609179a32fd7841d53615e48310bc5d9ef035bf035b"
     },
     {
       "file": "data/ui-tables.json",
-      "bytes": 25108,
-      "sha256": "2be1d1badfa76f3f85c4993850cd732fb2df05229d086b7cdd188e97d5fe4e19"
+      "bytes": 30451,
+      "sha256": "6b2cc1f08f37dbafed894e94e46465fd09ce65d0eaaf2c31162c152716ace6aa"
     },
     {
       "file": "tools/build.py",

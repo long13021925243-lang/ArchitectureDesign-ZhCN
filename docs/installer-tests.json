@@ -1,12 +1,12 @@
 {
   "status": "passed",
-  "production_setup_sha256": "72e04371623f157755c6398f3e2a800ffcf4f5dc20c2462c2bc08e49f2a41033",
-  "patched_exe_sha256": "2b232cd4dbdbd9abe87495a115d8d480d16c61e6348d0aebd72702c6044fd5e3",
+  "production_setup_sha256": "b220c83b6492b0aca4bf89af3ab22edde338093027d42c96039bde331c395754",
+  "patched_exe_sha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
   "tests": [
     {
       "name": "release_zip_contains_only_declared_nonfont_entries",
       "status": "passed",
-      "seconds": 0.016,
+      "seconds": 0.0,
       "details": {
         "zip_payload_entries": 3,
         "zip_font_entries": 0,
@@ -16,32 +16,32 @@
     {
       "name": "production_install_preserves_original_files_and_save",
       "status": "passed",
-      "seconds": 7.156
+      "seconds": 6.562
     },
     {
       "name": "production_verify",
       "status": "passed",
-      "seconds": 0.609
+      "seconds": 0.594
     },
     {
       "name": "repeat_install_has_no_payload_or_backup_changes",
       "status": "passed",
-      "seconds": 1.375
+      "seconds": 1.328
     },
     {
       "name": "repair_missing_font_and_damaged_resource",
       "status": "passed",
-      "seconds": 12.641
+      "seconds": 13.234
     },
     {
       "name": "production_restore_is_byte_exact",
       "status": "passed",
-      "seconds": 5.156
+      "seconds": 5.11
     },
     {
       "name": "clean_install_restore_removes_only_added_payload",
       "status": "passed",
-      "seconds": 14.766
+      "seconds": 11.75
     },
     {
       "name": "unknown_game_refused_without_mutation",
@@ -49,38 +49,78 @@
       "seconds": 0.172
     },
     {
-      "name": "legacy_R3_upgrade_preserves_first_backup_and_restore",
-      "status": "passed",
-      "seconds": 20.797
-    },
-    {
       "name": "different_valid_font_versions_and_system_font_update",
       "status": "passed",
-      "seconds": 14.047
+      "seconds": 13.219
     },
     {
       "name": "verify_and_restore_without_system_fonts",
       "status": "passed",
-      "seconds": 5.703
+      "seconds": 5.734
     },
     {
       "name": "missing_or_invalid_fonts_refuse_install_without_mutation",
       "status": "passed",
-      "seconds": 1.422
+      "seconds": 1.594
     },
     {
       "name": "font_update_late_failure_rolls_back_and_restores_without_fonts",
       "status": "passed",
-      "seconds": 17.875
+      "seconds": 18.391
     },
     {
       "name": "failed_repair_does_not_accept_corrupt_font_as_valid",
       "status": "passed",
-      "seconds": 24.078
+      "seconds": 24.953
+    },
+    {
+      "name": "new_build_install_verify_restore_preserves_old_build_backup",
+      "status": "passed",
+      "details": {
+        "status": "passed",
+        "new_build": "26277848",
+        "old_build": "26257309",
+        "setup_sha256": "b220c83b6492b0aca4bf89af3ab22edde338093027d42c96039bde331c395754",
+        "new_original_sha256": "af632b66230f39eb3520aba3e3a7f836c7668a496ab4d6605d26600908e72ab8",
+        "patched_sha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+        "old_backup_before": {
+          "journal.json": "5cd657163a5a32cbc778d1dce4825d9861441fef21c64b3f0564e5141bdc5a6e",
+          "preserved-history.txt": "c545adbe189424e163cb599233cbcb1d08c51c5c78614577c91c8ef2a4f6272a",
+          "files/ArchitectureDesign/Binaries/Win64/ArchitectureDesign-Win64-Shipping.exe": "5992c6d0e30a06e1e25bf67787fb8883a98a8203c6e2d21816322ccaff47fbfc",
+          "files/ArchitectureDesign/Content/Data/Fonts/CN.ttf": "7c808f4adfff50f11a22ab268289e71970949909c231bc68e5de451b5f41ef40"
+        },
+        "operations": [
+          {
+            "action": "install",
+            "exit_code": 0,
+            "old_backup_unchanged": true,
+            "user_save_unchanged": true
+          },
+          {
+            "action": "verify",
+            "exit_code": 0,
+            "old_backup_unchanged": true,
+            "user_save_unchanged": true
+          },
+          {
+            "action": "restore",
+            "exit_code": 0,
+            "old_backup_unchanged": true,
+            "user_save_unchanged": true
+          }
+        ],
+        "actual_game_modified": false,
+        "old_backup_after": {
+          "journal.json": "5cd657163a5a32cbc778d1dce4825d9861441fef21c64b3f0564e5141bdc5a6e",
+          "preserved-history.txt": "c545adbe189424e163cb599233cbcb1d08c51c5c78614577c91c8ef2a4f6272a",
+          "files/ArchitectureDesign/Binaries/Win64/ArchitectureDesign-Win64-Shipping.exe": "5992c6d0e30a06e1e25bf67787fb8883a98a8203c6e2d21816322ccaff47fbfc",
+          "files/ArchitectureDesign/Content/Data/Fonts/CN.ttf": "7c808f4adfff50f11a22ab268289e71970949909c231bc68e5de451b5f41ef40"
+        }
+      }
     }
   ],
   "scope": "Only fresh simulated roots; original EXE and Windows font sources are read-only.",
-  "test_only_setup_sha256": "e620cae085cc0ca335b5e203c4dd50d510354e49001677694ea09aead9b28b88",
-  "finished_utc": "2026-10-28T14:02:51Z",
+  "test_only_setup_sha256": "768f6d9b9713844675d73af2291447042ec41c6ea20ff1a8385786415d6a017f",
+  "finished_utc": "2026-10-29T01:17:17Z",
   "total_tests": 14
 }

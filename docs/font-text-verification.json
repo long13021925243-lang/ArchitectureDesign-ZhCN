@@ -1,0 +1,146 @@
+{
+  "source_files": {
+    "inplace": "inplace-translations.json",
+    "pointers": "applied-ui-pointers.json",
+    "tables": "applied-ui-tables.json",
+    "dynamic_mapping": "library-display-mapping.json",
+    "material_display_mapping": "material-display-mapping.json",
+    "material_data": "payload/ArchitectureDesign/Content/Data/MaterialBibliothek.json",
+    "patch_notes": "payload/ArchitectureDesign/Content/Data/PatchNotes.json"
+  },
+  "text_counts": {
+    "inplace_display_texts": 1705,
+    "font_references": 8,
+    "ui_pointers": 659,
+    "ui_tables": 68,
+    "dynamic_display_mappings": 68,
+    "material_display_mappings": 167,
+    "total_display_texts": 2667,
+    "total_executable_string_records": 2675,
+    "material_names": 166,
+    "patch_entries": 8,
+    "patch_notes": 83
+  },
+  "placeholders": {
+    "mismatches": [],
+    "literal_percentage_reviews": [
+      {
+        "where": "inplace:898",
+        "source": "How much vegetation? 100 % is the street as it was designed.",
+        "translation": "植被密度是多少？100% 为街道原始设计的密度。",
+        "reason": "Reviewed literal percentages followed by English prose, not formatting placeholders; percent-sign counts preserved."
+      },
+      {
+        "where": "inplace:1415",
+        "source": "Amount and Size apply to what you paint now. Replace: 0 % adds to what grows there, 100 % replaces it. Shift erases.",
+        "translation": "数量和大小影响当前绘制。替换：0 % 在现有植被上添加，100 % 完全替换。Shift 擦除。",
+        "reason": "Reviewed literal percentages followed by English prose, not formatting placeholders; percent-sign counts preserved."
+      }
+    ],
+    "pass": true
+  },
+  "inplace_length": {
+    "oversize_rows": [],
+    "pass": true
+  },
+  "unicode_integrity": {
+    "replacement_character_nul_or_surrogate_rows": [],
+    "pass": true
+  },
+  "fonts": [
+    {
+      "font": "CN.ttf",
+      "source_windows_font": "msyh.ttc",
+      "bundled": false,
+      "sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
+      "face_index": 0,
+      "unicode_cmap_formats": [
+        4,
+        12
+      ],
+      "unique_printable_characters_checked": 1205,
+      "cjk_characters_checked": 1119,
+      "missing_characters": [],
+      "missing_cjk_count": 0,
+      "replacement_candidates_supported": {
+        "⇄": {
+          "candidate": "↔",
+          "supported": false
+        },
+        "✓": {
+          "candidate": "√",
+          "supported": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "font": "CNB.ttf",
+      "source_windows_font": "msyhbd.ttc",
+      "bundled": false,
+      "sha256": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6",
+      "face_index": 0,
+      "unicode_cmap_formats": [
+        4,
+        12
+      ],
+      "unique_printable_characters_checked": 1205,
+      "cjk_characters_checked": 1119,
+      "missing_characters": [],
+      "missing_cjk_count": 0,
+      "replacement_candidates_supported": {
+        "⇄": {
+          "candidate": "↔",
+          "supported": false
+        },
+        "✓": {
+          "candidate": "√",
+          "supported": true
+        }
+      },
+      "pass": true
+    }
+  ],
+  "payload_matches_localized_data": {
+    "material_non_display_fields_unchanged": true,
+    "patch_notes_non_display_fields_unchanged": true
+  },
+  "mapping_length": {
+    "oversize_rows": [],
+    "pass": true
+  },
+  "expected_counts": {
+    "inplace": true,
+    "pointers": true,
+    "tables": true,
+    "mapping": true,
+    "material_mapping": true,
+    "font_references": true
+  },
+  "all_pass": true,
+  "input_matches_applied": {
+    "pointer_input_matches_applied": true,
+    "table_input_matches_applied": true
+  },
+  "patched_sha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+  "expected_patched_sha256_match": true,
+  "original_sha256": "af632b66230f39eb3520aba3e3a7f836c7668a496ab4d6605d26600908e72ab8",
+  "expected_original_sha256_match": true,
+  "validation_scope": "Static font cmap coverage, placeholder/token equivalence, UTF16 integrity and string-size checks for all applied R4 text plus 68 category mappings and 167 material display mappings. Both translated and source-side material mapping text are included in font coverage. Does not assert pixel layout or all runtime states.",
+  "status": "PASS",
+  "input_sha256": {
+    "inplace-translations.json": "9a2c4aa67ccb212b1fe8520c8f503eff7998bb1affd5c37ab602d3e2a93a63ed",
+    "ui-pointers.json": "0aaae14ce09244f31eb19a9ba1bf270271f36f706838b56a04ea2de15f6436ae",
+    "ui-tables.json": "9d886c2d14633b459ee36effd8908b51ebdb906f15790c6c1974beb045a31851",
+    "applied-ui-pointers.json": "bae29190c514bf33a178d65ed6b06e4fccd188b000aea640b748d3564aa7a67a",
+    "applied-ui-tables.json": "f25fdbf40c3730084c86f1bd21517172feb4ef35b48aa16d8b25c1936158ee8d",
+    "library-display-mapping.json": "564be76bbd1a48e324f226d310e6eae3ef594fe0001522b2ae9019d3c171233d",
+    "material-display-mapping.json": "e848aae5e898905dd4c63f3b6d695a2600f8f9839f94fae11707983859699520",
+    "payload/ArchitectureDesign/Content/Data/MaterialBibliothek.json": "47d413e954916e0747f243e6a73d223c4996f2af39e64da3c5bfbb327e639a63",
+    "payload/ArchitectureDesign/Content/Data/PatchNotes.json": "979e6f7c68d56d1a2905bcc63f126b484307a94bd37436648836cf699ec9aead",
+    "MaterialBibliothek.json": "0269dd755298421345c1a26c6ce3927ba74b709d4d552eb05cbfedc84e29521b",
+    "PatchNotes.json": "0f7e8b2b58e4b64bb6538ff1bc0f5a1ecd9b58f7e27f7a89fd548f6a6ffd2185",
+    "manifest.json": "1fae5983773c2d27bc6452295bc020c17976858b34d19660916911ecfe56f3ef",
+    "build-verification.json": "8b30780f65c3600b020b757da605c70b378fa8ad63e6a83af01258a33bdbd31d"
+  }
+}

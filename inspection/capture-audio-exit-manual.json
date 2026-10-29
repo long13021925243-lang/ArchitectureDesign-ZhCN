@@ -1,3 +1,13 @@
 [
-  {"name":"audio_exit_manual","args":"","rundgang":"rundgang-audio-exit-manual.txt","files":["rg_options_project.png","rg_audio.png","rg_save_exit.png"],"note":"从成功序列移除无效3D/材质点击后的精简版，仅作手动附加案例；精简版未重新运行。"}
+  {
+    "name": "audio_exit_manual",
+    "args": "",
+    "rundgang": "rundgang-audio-exit-manual.txt",
+    "files": [
+      "rg_options_project.png",
+      "rg_audio.png",
+      "rg_save_exit.png"
+    ],
+    "note": "R4 / Build 26277848 已实际运行并确认项目、声音和退出保存提示共3张截图。"
+  }
 ]

@@ -1,0 +1,107 @@
+[
+  {
+    "offset": 162595480,
+    "source": "Photo saved",
+    "translation": "照片已保存",
+    "references": [
+      {
+        "instruction_offset": 96360148,
+        "instruction_rva": 96362708,
+        "function_rva": 96355023,
+        "original_hex": "488d15bdb7f203",
+        "kind": "RIP-relative LEA (instruction boundary validated from .pdata function)"
+      }
+    ],
+    "purpose": "VR photo confirmation display label constructed as FString then assigned to displayed label; neighboring internal tab:furnish/tool:sofa command constants remain unchanged."
+  },
+  {
+    "offset": 162602000,
+    "source": "Today ",
+    "translation": "今天 ",
+    "references": [
+      {
+        "instruction_offset": 96459684,
+        "instruction_rva": 96462244,
+        "function_rva": 96461575,
+        "original_hex": "488d15654cf103",
+        "kind": "RIP-relative LEA (instruction boundary validated from .pdata function)"
+      }
+    ],
+    "purpose": "Save-browser display timestamp prefix, concatenated with formatted local time only after comparing calendar day values."
+  },
+  {
+    "offset": 162602016,
+    "source": "Yesterday ",
+    "translation": "昨天 ",
+    "references": [
+      {
+        "instruction_offset": 96459767,
+        "instruction_rva": 96462327,
+        "function_rva": 96461575,
+        "original_hex": "488d15224cf103",
+        "kind": "RIP-relative LEA (instruction boundary validated from .pdata function)"
+      }
+    ],
+    "purpose": "Save-browser display timestamp prefix for the previous-day branch; same concatenation destination as Today."
+  },
+  {
+    "offset": 162602040,
+    "source": "%s %d, %s",
+    "translation": "%s%d日 %s",
+    "references": [
+      {
+        "instruction_offset": 96459847,
+        "instruction_rva": 96462407,
+        "function_rva": 96461575,
+        "original_hex": "488d15ea4bf103",
+        "kind": "RIP-relative LEA (instruction boundary validated from .pdata function)"
+      }
+    ],
+    "purpose": "Save-browser date display printf format; args are month display table entry, day number, and already-formatted time."
+  },
+  {
+    "offset": 162603624,
+    "source": "Latest · ",
+    "translation": "最新 · ",
+    "references": [
+      {
+        "instruction_offset": 96460132,
+        "instruction_rva": 96462692,
+        "function_rva": 96461575,
+        "original_hex": "488d15fd50f103",
+        "kind": "RIP-relative LEA (instruction boundary validated from .pdata function)"
+      }
+    ],
+    "purpose": "Latest save display prefix constructed then concatenated to the save-list row label; existing replacement glyphs in source are replaced with supported middle dot."
+  },
+  {
+    "offset": 162614288,
+    "source": "Saved to Pictures \\ Architecture & Design",
+    "translation": "已保存至图片文件夹 \\ Architecture & Design",
+    "references": [
+      {
+        "instruction_offset": 96595240,
+        "instruction_rva": 96597800,
+        "function_rva": 96597728,
+        "original_hex": "488d15e16aef03",
+        "kind": "RIP-relative LEA (instruction boundary validated from .pdata function)"
+      }
+    ],
+    "purpose": "VR photo notification description paired with PHOTO display heading, copied as two FString members into notification array."
+  },
+  {
+    "offset": 162614376,
+    "source": "PHOTO",
+    "translation": "照片",
+    "references": [
+      {
+        "instruction_offset": 96595224,
+        "instruction_rva": 96597784,
+        "function_rva": 96597728,
+        "original_hex": "488d15496bef03",
+        "kind": "RIP-relative LEA (instruction boundary validated from .pdata function)"
+      }
+    ],
+    "purpose": "VR photo notification heading paired with Saved to Pictures description; not the distinct sys:photo dispatch key."
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "buildId": "26277848",
+  "gameExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+  "imageCount": 21,
+  "latinCandidateCount": 9,
+  "candidates": [
+    {
+      "file": "audio_exit_manual/rg_audio.png",
+      "imageSha256": "d6e2592b2a44dd06bcf6fc7c7a00af5b2d3a95f3cca0e0f273c52c31444cf79f",
+      "y": 382,
+      "height": 10,
+      "width": 20,
+      "text": "FSR",
+      "x": 534,
+      "classification": "技术名称"
+    },
+    {
+      "file": "audio_exit_manual/rg_options_project.png",
+      "imageSha256": "55d2e0dbfd67f3f2a162fd2a846ed6b221693eb36983dd83bd167c3352f5c627",
+      "y": 382,
+      "height": 10,
+      "width": 20,
+      "text": "FSR",
+      "x": 534,
+      "classification": "技术名称"
+    },
+    {
+      "file": "building_properties/p_treppe.png",
+      "imageSha256": "3abd46d171eb5032bfa76e6903e0f73c0c90c09601c86007b63f2e6ddd093521",
+      "y": 682,
+      "height": 10,
+      "width": 25,
+      "text": "(Ctr/",
+      "x": 128,
+      "classification": "Ctrl 快捷键（OCR 误识别）"
+    },
+    {
+      "file": "building_properties/p_weg.png",
+      "imageSha256": "c45fecb9d5798b3ec35ec5bff48a80c3d7b088bdac229a5ec37bc5e4bb4ac1d2",
+      "y": 317,
+      "height": 8,
+      "width": 18,
+      "text": "Ctr/",
+      "x": 36,
+      "classification": "Ctrl 快捷键（OCR 误识别）"
+    },
+    {
+      "file": "furniture/panel.png",
+      "imageSha256": "5cf4a1706fbd4d199ce26166c2e40a80bcd0732c4561a85870a7568e042b0cd3",
+      "y": 70,
+      "height": 16,
+      "width": 42,
+      "text": "Sofa",
+      "x": 31,
+      "classification": "Sofa-05 模型资源编号"
+    },
+    {
+      "file": "materials/panel.png",
+      "imageSha256": "5ce3dca4bfcc6335d9f5086c38d388125572a6c1e7e94556a806550ceb35d732",
+      "y": 70,
+      "height": 16,
+      "width": 42,
+      "text": "Sofa",
+      "x": 31,
+      "classification": "Sofa-05 模型资源编号"
+    },
+    {
+      "file": "menu/rg_main.png",
+      "imageSha256": "5531ccc90149a4bcf29b1a53e7513879d7cbd71bd1255d786cb84fdde12c27cf",
+      "y": 129,
+      "height": 59,
+      "width": 405,
+      "text": "Architecture",
+      "x": 142,
+      "classification": "游戏品牌"
+    },
+    {
+      "file": "menu/rg_main.png",
+      "imageSha256": "5531ccc90149a4bcf29b1a53e7513879d7cbd71bd1255d786cb84fdde12c27cf",
+      "y": 221,
+      "height": 73,
+      "width": 218,
+      "text": "Design",
+      "x": 214,
+      "classification": "游戏品牌"
+    },
+    {
+      "file": "opening/panel.png",
+      "imageSha256": "d103d1dbc87babae565b75635a26af3524a68bdbda7dacd6f42da53daea014fd",
+      "y": 134,
+      "height": 8,
+      "width": 18,
+      "text": "Ctr/",
+      "x": 36,
+      "classification": "Ctrl 快捷键（OCR 误识别）"
+    }
+  ],
+  "scope": "OCR candidates complement visual review; OCR can miss text and does not prove every runtime state is localized."
+}

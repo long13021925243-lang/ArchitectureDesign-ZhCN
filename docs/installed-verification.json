@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "installedExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+  "oldBuildBackupFilesUnchanged": 8,
+  "files": [
+    {
+      "relative": "ArchitectureDesign\\Binaries\\Win64\\ArchitectureDesign-Win64-Shipping.exe",
+      "installedSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+      "originalBackupVerified": true
+    },
+    {
+      "relative": "ArchitectureDesign\\Content\\Data\\MaterialBibliothek.json",
+      "installedSha256": "47d413e954916e0747f243e6a73d223c4996f2af39e64da3c5bfbb327e639a63",
+      "originalBackupVerified": true
+    },
+    {
+      "relative": "ArchitectureDesign\\Content\\Data\\PatchNotes.json",
+      "installedSha256": "979e6f7c68d56d1a2905bcc63f126b484307a94bd37436648836cf699ec9aead",
+      "originalBackupVerified": true
+    },
+    {
+      "relative": "ArchitectureDesign\\Content\\Data\\Fonts\\CN.ttf",
+      "installedSha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
+      "originalBackupVerified": true
+    },
+    {
+      "relative": "ArchitectureDesign\\Content\\Data\\Fonts\\CNB.ttf",
+      "installedSha256": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6",
+      "originalBackupVerified": true
+    },
+    {
+      "relative": "ArchitectureDesign\\Content\\Paks\\zzz_ArchitectureDesign_ZhCN_P.pak",
+      "installedSha256": "7a616093df13a2d5be31c42b1618df0d83631575746b867553fdee575ae30d45",
+      "originalBackupVerified": true
+    }
+  ],
+  "buildId": "26277848",
+  "setupSha256": "b220c83b6492b0aca4bf89af3ab22edde338093027d42c96039bde331c395754"
+}

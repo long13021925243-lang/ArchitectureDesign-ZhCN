@@ -1,4 +1,4 @@
-# Manually selected optional case. This cleaned sequence has not been rerun.
+# Verified on R4 / Build 26277848: project, audio and save-before-exit panels.
 warte 5
 klick 270 400
 warte 2

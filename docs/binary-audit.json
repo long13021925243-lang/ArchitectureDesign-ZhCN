@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "buildId": "26277848",
+  "originalSha256": "af632b66230f39eb3520aba3e3a7f836c7668a496ab4d6605d26600908e72ab8",
+  "patchedSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+  "manifestSha256": "1fae5983773c2d27bc6452295bc020c17976858b34d19660916911ecfe56f3ef",
+  "originalBytes": 199751912,
+  "patchedBytes": 199766016,
+  "patchCount": 2451,
+  "inlineRecords": 1713,
+  "leaRecords": 659,
+  "tableSlots": 68,
+  "approvedRangesOnly": true,
+  "independentReplayExact": true,
+  "peChecksum": 199804519,
+  "appendedBytes": 14104,
+  "wrapperSectionSha256": "fedd2ea6756a3a24fb0e4bb75bb104d4e7cb50a7f160aec5a2a1bff53bf9a990",
+  "executionTestsReused": 918,
+  "checkCount": 32,
+  "checks": [
+    {
+      "check": "Original executable SHA-256",
+      "pass": true
+    },
+    {
+      "check": "Final executable SHA-256",
+      "pass": true
+    },
+    {
+      "check": "AMD64 PE32+ header",
+      "pass": true
+    },
+    {
+      "check": "Independent full manifest replay matches final file byte-for-byte",
+      "pass": true
+    },
+    {
+      "check": "All 659 LEAs preserve opcode/register and resolve to bounded translated UTF-16",
+      "pass": true
+    },
+    {
+      "check": "Base relocation directory and all original relocation bytes unchanged",
+      "pass": true
+    },
+    {
+      "check": "All 68 display pointer slots resolve to translated UTF-16 with actual DIR64 relocations",
+      "pass": true
+    },
+    {
+      "check": "All allocated display strings are separate and within reviewed literal padding",
+      "pass": true
+    },
+    {
+      "check": "All 1713 inline records retain exact translated prefix and original source span",
+      "pass": true
+    },
+    {
+      "check": "Manifest ranges equal independently enumerated text, LEA, table, wrapper, PE and checksum ranges",
+      "pass": true
+    },
+    {
+      "check": "All original bytes outside approved ranges remain unchanged",
+      "pass": true
+    },
+    {
+      "check": "Exactly one new PE section",
+      "pass": true
+    },
+    {
+      "check": "New section is code/read/execute and is not writable",
+      "pass": true
+    },
+    {
+      "check": "Section layout/alignment and final file length",
+      "pass": true
+    },
+    {
+      "check": "Final section placement equals executed wrapper artifact",
+      "pass": true
+    },
+    {
+      "check": "Only zero alignment padding before appended section",
+      "pass": true
+    },
+    {
+      "check": "Appended section exactly matches simulated machine code and mappings",
+      "pass": true
+    },
+    {
+      "check": "Existing sections preserve placement, raw size and access flags",
+      "pass": true
+    },
+    {
+      "check": "SizeOfImage covers the appended section",
+      "pass": true
+    },
+    {
+      "check": "SizeOfCode adjusted by exact new raw section size",
+      "pass": true
+    },
+    {
+      "check": "Three branch hooks resolve to the intended new wrappers",
+      "pass": true
+    },
+    {
+      "check": "Category trampoline replays the complete stolen instruction and resumes exact continuation",
+      "pass": true
+    },
+    {
+      "check": "Category original formatter continuation unchanged",
+      "pass": true
+    },
+    {
+      "check": "Original material/FText formatters and diagnostic caller unchanged",
+      "pass": true
+    },
+    {
+      "check": "Exception directory grows by exactly three RUNTIME_FUNCTION entries",
+      "pass": true
+    },
+    {
+      "check": "Every existing RUNTIME_FUNCTION entry unchanged",
+      "pass": true
+    },
+    {
+      "check": "Exception entries remain sorted and do not overlap",
+      "pass": true
+    },
+    {
+      "check": "Exception metadata fits existing .pdata raw capacity",
+      "pass": true
+    },
+    {
+      "check": "Three wrapper ranges and 40/40/72-byte unwind records match actual code",
+      "pass": true
+    },
+    {
+      "check": "Independent PE checksum computation matches stored CheckSum",
+      "pass": true
+    },
+    {
+      "check": "Independent source-record reconstruction matches every byte including unused literal padding",
+      "pass": true
+    },
+    {
+      "check": "All 918 successful execution tests are bound to final released section bytes",
+      "pass": true
+    }
+  ],
+  "methodology": "No builder module imported. Manifest independently replayed; each declared range cross-checked against source translation records and hook metadata; final PE, relocations, branch targets, exception records and checksum decoded directly.",
+  "limits": "Execution proofs simulate wrappers and defined formatter boundaries. This binary audit does not replace game screenshot and interaction checks."
+}

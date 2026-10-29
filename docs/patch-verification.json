@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "buildId": "26277848",
+  "originalSha256": "af632b66230f39eb3520aba3e3a7f836c7668a496ab4d6605d26600908e72ab8",
+  "patchedSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5",
+  "originalExeSize": 199751912,
+  "patchedExeSize": 199766016,
+  "literalTextCount": 1705,
+  "fontReferenceCount": 8,
+  "uiPointerCount": 659,
+  "uiTableCount": 68,
+  "patchCount": 2451,
+  "appendedBytes": 14104,
+  "peChecksum": 199804519,
+  "unchangedOutsideApprovedRanges": true,
+  "windowsFontsBundled": false
+}

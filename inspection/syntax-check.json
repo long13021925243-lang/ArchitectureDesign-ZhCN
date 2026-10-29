@@ -1,7 +1,7 @@
 ﻿{
     "scripts":  [
                     {
-                        "sha256":  "175e12ee2a08d95345839a96cb2261d2864799ba57acb391173782a8ea1de925",
+                        "sha256":  "ef8619b8a90fa516c1df77173a880c22ed4da57bde8ef8de0105931d28232bd2",
                         "errors":  [
 
                                    ],
@@ -9,7 +9,7 @@
                         "pass":  true
                     },
                     {
-                        "sha256":  "0ea8aed77b313d56d1b468343f10a493fcdaefe6bc247014cbeee86a0247beec",
+                        "sha256":  "37f3da352278a29028e41c190e1567709fa80fd3ac7906f8a48cd6bb46229d2c",
                         "errors":  [
 
                                    ],
@@ -33,7 +33,9 @@
     "missing_dependencies":  [
 
                              ],
+    "all_expected_pngs":  21,
     "all_pass":  true,
-    "checked_at":  "2026-10-28T15:04:57.3882444+08:00",
-    "scope":  "Parser and bundled-case checks only. No game process started. Parameterized delivery scripts and cleaned manual sequence were not runtime-tested again."
+    "all_cases":  10,
+    "checked_at":  "2026-10-29T09:30:05.6305768+08:00",
+    "scope":  "Parser and bundled-case checks only. No game process started by this syntax check. R4 runtime evidence is in docs/runtime-captures.json."
 }

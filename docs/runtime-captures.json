@@ -1,0 +1,197 @@
+[
+  {
+    "files": [
+      {
+        "name": "panel.png",
+        "length": 3985191,
+        "sha256": "5cf4a1706fbd4d199ce26166c2e40a80bcd0732c4561a85870a7568e042b0cd3"
+      }
+    ],
+    "case": "furniture",
+    "started": "2026-10-29T09:19:48.4956142+08:00",
+    "exitCode": 0,
+    "arguments": "-panelbild -katalog=Table",
+    "gameExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5"
+  },
+  {
+    "files": [
+      {
+        "name": "panel.png",
+        "length": 4049215,
+        "sha256": "5ce3dca4bfcc6335d9f5086c38d388125572a6c1e7e94556a806550ceb35d732"
+      }
+    ],
+    "case": "materials",
+    "started": "2026-10-29T09:20:11.6725564+08:00",
+    "exitCode": 0,
+    "arguments": "-panelbild -bibliothek",
+    "gameExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5"
+  },
+  {
+    "files": [
+      {
+        "name": "p_wand.png",
+        "length": 2880445,
+        "sha256": "ef4cf648b622b0a00f152aa66301886465c452d9cf7479cb4846e49380666c8b"
+      },
+      {
+        "name": "p_fenster.png",
+        "length": 2915704,
+        "sha256": "ee2b1a9922e7208deacddf89a5d291b81a102050171880ffc2fb6839cbcf3eb0"
+      },
+      {
+        "name": "p_tuer.png",
+        "length": 3044255,
+        "sha256": "f47d3013acdf7b07ddc299222ff923d457b227c0ca4694e9b849ea6a206797be"
+      },
+      {
+        "name": "p_treppe.png",
+        "length": 3019410,
+        "sha256": "3abd46d171eb5032bfa76e6903e0f73c0c90c09601c86007b63f2e6ddd093521"
+      },
+      {
+        "name": "p_boden.png",
+        "length": 3209053,
+        "sha256": "4b4b67d07e0cad7d9e59e5fcf12f27bee7593baa5b7864350fcd862aef25556c"
+      },
+      {
+        "name": "p_dach.png",
+        "length": 2996939,
+        "sha256": "6cced73866d173c782fdf5f1ca10651d03a590aac165aa768b2f3126d0fae3dc"
+      },
+      {
+        "name": "p_weg.png",
+        "length": 3140591,
+        "sha256": "c45fecb9d5798b3ec35ec5bff48a80c3d7b088bdac229a5ec37bc5e4bb4ac1d2"
+      },
+      {
+        "name": "p_gelaender.png",
+        "length": 3176000,
+        "sha256": "0a202f9066f8bcde0c7a607d056e643d898ebb9c5b219f0c28b2a52ef20c71ed"
+      }
+    ],
+    "case": "building_properties",
+    "started": "2026-10-29T09:20:33.9438112+08:00",
+    "exitCode": 0,
+    "arguments": "-allepanels",
+    "gameExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5"
+  },
+  {
+    "files": [
+      {
+        "name": "panel.png",
+        "length": 240453,
+        "sha256": "c4edfa943abb9a2bd3c03f6336d541f4992478cd0d463f3ba70bbac667f3f796"
+      }
+    ],
+    "case": "door_placement",
+    "started": "2026-10-29T09:21:22.0102486+08:00",
+    "exitCode": 0,
+    "arguments": "-panelbild -tab=0 -werkzeug=door",
+    "gameExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5"
+  },
+  {
+    "files": [
+      {
+        "name": "panel.png",
+        "length": 240519,
+        "sha256": "d103d1dbc87babae565b75635a26af3524a68bdbda7dacd6f42da53daea014fd"
+      }
+    ],
+    "case": "opening",
+    "started": "2026-10-29T09:21:43.7720732+08:00",
+    "exitCode": 0,
+    "arguments": "-panelbild -tab=0 -werkzeug=hole",
+    "gameExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5"
+  },
+  {
+    "files": [
+      {
+        "name": "panel.png",
+        "length": 4512718,
+        "sha256": "6198eaee24627a50fe6e8f73bed26d0eb804dff0ddf1d7e2badb0f5c2cb0dd31"
+      }
+    ],
+    "case": "railing",
+    "started": "2026-10-29T09:22:05.5031620+08:00",
+    "exitCode": 0,
+    "arguments": "-panelbild -tab=1 -werkzeug=rail",
+    "gameExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5"
+  },
+  {
+    "files": [
+      {
+        "name": "panel.png",
+        "length": 4335322,
+        "sha256": "672476746546ddfa22a4fc5c740874a120f8f06020710386210c7259d63f57d3"
+      }
+    ],
+    "case": "terrain",
+    "started": "2026-10-29T09:22:27.2404314+08:00",
+    "exitCode": 0,
+    "arguments": "-panelbild -tab=1 -werkzeug=landscape",
+    "gameExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5"
+  },
+  {
+    "files": [
+      {
+        "name": "panel.png",
+        "length": 3851084,
+        "sha256": "ae110792a07e927aeaacf25e4822b27802da28a062ddc82d15b1cbc947d39675"
+      }
+    ],
+    "case": "weather",
+    "started": "2026-10-29T09:22:48.9817570+08:00",
+    "exitCode": 0,
+    "arguments": "-panelbild -sonne",
+    "gameExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5"
+  },
+  {
+    "files": [
+      {
+        "name": "rg_main.png",
+        "length": 3474409,
+        "sha256": "5531ccc90149a4bcf29b1a53e7513879d7cbd71bd1255d786cb84fdde12c27cf"
+      },
+      {
+        "name": "rg_environment.png",
+        "length": 3357282,
+        "sha256": "52551438e498bb270708f71358cf891df4c774e8a4ef8ba715a7ae9c0640d903"
+      },
+      {
+        "name": "rg_plot_size.png",
+        "length": 3450121,
+        "sha256": "d073fcec7c5880dfeed42c6ad4ffc487d863026f3e2fa89eb0aaf19d8f7ca0a7"
+      }
+    ],
+    "case": "menu",
+    "started": "2026-10-29T09:23:10.7442703+08:00",
+    "exitCode": 0,
+    "arguments": "-rundgang=rundgang-menu-coverage.txt",
+    "gameExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5"
+  },
+  {
+    "files": [
+      {
+        "name": "rg_options_project.png",
+        "length": 190688,
+        "sha256": "55d2e0dbfd67f3f2a162fd2a846ed6b221693eb36983dd83bd167c3352f5c627"
+      },
+      {
+        "name": "rg_audio.png",
+        "length": 191848,
+        "sha256": "d6e2592b2a44dd06bcf6fc7c7a00af5b2d3a95f3cca0e0f273c52c31444cf79f"
+      },
+      {
+        "name": "rg_save_exit.png",
+        "length": 161260,
+        "sha256": "9d3f35bf89b4b5dc54e21149ba106de26a143bdbeed12c57f4fec309a96190a6"
+      }
+    ],
+    "case": "audio_exit_manual",
+    "started": "2026-10-29T09:23:33.5042049+08:00",
+    "exitCode": 0,
+    "arguments": "-rundgang=rundgang-audio-exit-manual.txt",
+    "gameExeSha256": "7b926a78c273c373df92da086f4c769c8ba064e25871c3de53426a1390cce7d5"
+  }
+]

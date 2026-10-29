@@ -87,18 +87,21 @@ foreach ($case in $cases) {
 }
 
 New-Item -ItemType Directory -Path $ProfileRoot -Force | Out-Null
-@{ purpose = 'ArchitectureDesign-ZhCN-isolated-inspection'; profileRoot = $ProfileRoot } | ConvertTo-Json | Set-Content -LiteralPath $marker -Encoding UTF8
+@{ purpose = 'ArchitectureDesign-ZhCN-isolated-inspection'; profileRoot = $ProfileRoot; gameExeSha256 = $buildHash } | ConvertTo-Json | Set-Content -LiteralPath $marker -Encoding UTF8
 $config = Join-Path $ProfileRoot 'Saved\Config\Windows'
 New-Item -ItemType Directory -Path $config -Force | Out-Null
 $settings = Join-Path $config 'GameUserSettings.ini'
 if (!(Test-Path -LiteralPath $settings)) { Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'GameUserSettings.ini') -Destination $settings }
 $runOutput = Join-Path $OutputRoot $runId
 New-Item -ItemType Directory -Path $runOutput -Force | Out-Null
+$shippingExe = Join-Path $GameRoot 'ArchitectureDesign\Binaries\Win64\ArchitectureDesign-Win64-Shipping.exe'
+$buildHash = (Get-FileHash -LiteralPath $shippingExe -Algorithm SHA256).Hash.ToLowerInvariant()
 $report = @()
 Write-Output ('独立巡检存档：' + $ProfileRoot)
 Write-Output ('本次截图输出：' + $runOutput)
 foreach ($case in $cases) {
     if (Get-Process -Name 'ArchitectureDesign', 'ArchitectureDesign-Win64-Shipping' -ErrorAction SilentlyContinue) { throw '检测到游戏仍在运行，已停止后续案例。' }
+    if ((Get-FileHash -LiteralPath $shippingExe -Algorithm SHA256).Hash.ToLowerInvariant() -ne $buildHash) { throw '游戏主程序在巡检期间发生变化，已停止。' }
     $caseArgs = [string]$case.args
     if ($case.rundgang) {
         $scriptPath = (Join-Path $PSScriptRoot $case.rundgang).Replace('\', '/')
@@ -118,7 +121,7 @@ foreach ($case in $cases) {
         Copy-Item -LiteralPath $source -Destination (Join-Path $destination $name)
         $records += @{ name = $name; length = $file.Length; sha256 = (Get-FileHash -LiteralPath $source -Algorithm SHA256).Hash.ToLowerInvariant() }
     }
-    $record = @{ case = $case.name; arguments = $caseArgs.Trim(); started = $started.ToString('o'); exitCode = $run.ExitCode; files = $records; profileRoot = $ProfileRoot }
+    $record = @{ case = $case.name; arguments = $caseArgs.Trim(); started = $started.ToString('o'); exitCode = $run.ExitCode; files = $records; profileRoot = $ProfileRoot; gameExeSha256 = $buildHash }
     $report += $record
     $record | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath (Join-Path $destination 'capture.json') -Encoding UTF8
     $report | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath (Join-Path $runOutput 'runtime-captures.json') -Encoding UTF8

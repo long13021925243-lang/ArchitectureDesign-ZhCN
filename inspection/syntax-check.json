@@ -1,7 +1,7 @@
 ﻿{
     "scripts":  [
                     {
-                        "sha256":  "ef8619b8a90fa516c1df77173a880c22ed4da57bde8ef8de0105931d28232bd2",
+                        "sha256":  "b6723901bd7f1e3326e5a56a8fb07fc241630f4a2329dd4eae62f64b61c667cf",
                         "errors":  [
 
                                    ],
@@ -36,6 +36,6 @@
     "all_expected_pngs":  21,
     "all_pass":  true,
     "all_cases":  10,
-    "checked_at":  "2026-10-29T09:30:05.6305768+08:00",
+    "checked_at":  "2026-10-29T09:32:25.4248159+08:00",
     "scope":  "Parser and bundled-case checks only. No game process started by this syntax check. R4 runtime evidence is in docs/runtime-captures.json."
 }

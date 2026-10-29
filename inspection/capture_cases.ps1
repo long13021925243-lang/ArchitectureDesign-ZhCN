@@ -86,6 +86,8 @@ foreach ($case in $cases) {
     }
 }
 
+$shippingExe = Join-Path $GameRoot 'ArchitectureDesign\Binaries\Win64\ArchitectureDesign-Win64-Shipping.exe'
+$buildHash = (Get-FileHash -LiteralPath $shippingExe -Algorithm SHA256).Hash.ToLowerInvariant()
 New-Item -ItemType Directory -Path $ProfileRoot -Force | Out-Null
 @{ purpose = 'ArchitectureDesign-ZhCN-isolated-inspection'; profileRoot = $ProfileRoot; gameExeSha256 = $buildHash } | ConvertTo-Json | Set-Content -LiteralPath $marker -Encoding UTF8
 $config = Join-Path $ProfileRoot 'Saved\Config\Windows'
@@ -94,8 +96,6 @@ $settings = Join-Path $config 'GameUserSettings.ini'
 if (!(Test-Path -LiteralPath $settings)) { Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'GameUserSettings.ini') -Destination $settings }
 $runOutput = Join-Path $OutputRoot $runId
 New-Item -ItemType Directory -Path $runOutput -Force | Out-Null
-$shippingExe = Join-Path $GameRoot 'ArchitectureDesign\Binaries\Win64\ArchitectureDesign-Win64-Shipping.exe'
-$buildHash = (Get-FileHash -LiteralPath $shippingExe -Algorithm SHA256).Hash.ToLowerInvariant()
 $report = @()
 Write-Output ('独立巡检存档：' + $ProfileRoot)
 Write-Output ('本次截图输出：' + $runOutput)
